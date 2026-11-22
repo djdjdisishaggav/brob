@@ -1,0 +1,10 @@
+{
+  "name": "mushroom-lobby-world-preview",
+  "private": true,
+  "description": "Headless three.js preview of the procedurally built lobby. See docs/WORLD.md.",
+  "dependencies": {
+    "@fontsource/fredoka-one": "5.3.0",
+    "@fontsource/nunito": "5.3.0",
+    "three": "0.149.0"
+  }
+}
