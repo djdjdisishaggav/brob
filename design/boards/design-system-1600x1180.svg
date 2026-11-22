@@ -1,0 +1,2426 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1180" viewBox="0 0 1600 1180" style="font-kerning:none;font-variant-ligatures:none">
+  <title>Roblox UI render</title>
+  <defs>
+    <linearGradient id="paint" gradientUnits="userSpaceOnUse" x1="184" y1="478" x2="184" y2="518"><stop offset="0" stop-color="#7fbf4a"/><stop offset="1" stop-color="#5e9e36"/></linearGradient>
+    <linearGradient id="paint-2" gradientUnits="userSpaceOnUse" x1="318" y1="478" x2="318" y2="518"><stop offset="0" stop-color="#8ec760"/><stop offset="1" stop-color="#71aa4e"/></linearGradient>
+    <linearGradient id="paint-3" gradientUnits="userSpaceOnUse" x1="452" y1="481" x2="452" y2="521"><stop offset="0" stop-color="#75b044"/><stop offset="1" stop-color="#569132"/></linearGradient>
+    <linearGradient id="paint-4" gradientUnits="userSpaceOnUse" x1="586" y1="478" x2="586" y2="518"><stop offset="0" stop-color="#4a463f"/><stop offset="1" stop-color="#4a463f"/></linearGradient>
+    <linearGradient id="paint-5" gradientUnits="userSpaceOnUse" x1="720" y1="478" x2="720" y2="518"><stop offset="0" stop-color="#70a841"/><stop offset="1" stop-color="#538b30"/></linearGradient>
+    <linearGradient id="paint-6" gradientUnits="userSpaceOnUse" x1="184" y1="536" x2="184" y2="576"><stop offset="0" stop-color="#8a6746"/><stop offset="1" stop-color="#654a33"/></linearGradient>
+    <linearGradient id="paint-7" gradientUnits="userSpaceOnUse" x1="318" y1="536" x2="318" y2="576"><stop offset="0" stop-color="#98795c"/><stop offset="1" stop-color="#77604b"/></linearGradient>
+    <linearGradient id="paint-8" gradientUnits="userSpaceOnUse" x1="452" y1="539" x2="452" y2="579"><stop offset="0" stop-color="#7f5f40"/><stop offset="1" stop-color="#5d442f"/></linearGradient>
+    <linearGradient id="paint-9" gradientUnits="userSpaceOnUse" x1="586" y1="536" x2="586" y2="576"><stop offset="0" stop-color="#4a463f"/><stop offset="1" stop-color="#4a463f"/></linearGradient>
+    <linearGradient id="paint-10" gradientUnits="userSpaceOnUse" x1="720" y1="536" x2="720" y2="576"><stop offset="0" stop-color="#795b3e"/><stop offset="1" stop-color="#59412d"/></linearGradient>
+    <linearGradient id="paint-11" gradientUnits="userSpaceOnUse" x1="184" y1="594" x2="184" y2="634"><stop offset="0" stop-color="#ffc04d"/><stop offset="1" stop-color="#f2a01e"/></linearGradient>
+    <linearGradient id="paint-12" gradientUnits="userSpaceOnUse" x1="318" y1="594" x2="318" y2="634"><stop offset="0" stop-color="#ffc862"/><stop offset="1" stop-color="#f4ab39"/></linearGradient>
+    <linearGradient id="paint-13" gradientUnits="userSpaceOnUse" x1="452" y1="597" x2="452" y2="637"><stop offset="0" stop-color="#ebb147"/><stop offset="1" stop-color="#df931c"/></linearGradient>
+    <linearGradient id="paint-14" gradientUnits="userSpaceOnUse" x1="586" y1="594" x2="586" y2="634"><stop offset="0" stop-color="#4a463f"/><stop offset="1" stop-color="#4a463f"/></linearGradient>
+    <linearGradient id="paint-15" gradientUnits="userSpaceOnUse" x1="720" y1="594" x2="720" y2="634"><stop offset="0" stop-color="#e0a944"/><stop offset="1" stop-color="#d58d1a"/></linearGradient>
+    <linearGradient id="paint-16" gradientUnits="userSpaceOnUse" x1="184" y1="652" x2="184" y2="692"><stop offset="0" stop-color="#f26b57"/><stop offset="1" stop-color="#d94a3a"/></linearGradient>
+    <linearGradient id="paint-17" gradientUnits="userSpaceOnUse" x1="318" y1="652" x2="318" y2="692"><stop offset="0" stop-color="#f47d6b"/><stop offset="1" stop-color="#de6052"/></linearGradient>
+    <linearGradient id="paint-18" gradientUnits="userSpaceOnUse" x1="452" y1="655" x2="452" y2="695"><stop offset="0" stop-color="#df6250"/><stop offset="1" stop-color="#c84435"/></linearGradient>
+    <linearGradient id="paint-19" gradientUnits="userSpaceOnUse" x1="586" y1="652" x2="586" y2="692"><stop offset="0" stop-color="#4a463f"/><stop offset="1" stop-color="#4a463f"/></linearGradient>
+    <linearGradient id="paint-20" gradientUnits="userSpaceOnUse" x1="720" y1="652" x2="720" y2="692"><stop offset="0" stop-color="#d55e4d"/><stop offset="1" stop-color="#bf4133"/></linearGradient>
+    <linearGradient id="paint-21" gradientUnits="userSpaceOnUse" x1="899" y1="456" x2="899" y2="519"><stop offset="0" stop-color="#654a33"/><stop offset="1" stop-color="#4d3827"/></linearGradient>
+    <linearGradient id="paint-22" gradientUnits="userSpaceOnUse" x1="1045" y1="456" x2="1045" y2="519"><stop offset="0" stop-color="#745c47"/><stop offset="1" stop-color="#5f4c3d"/></linearGradient>
+    <linearGradient id="paint-23" gradientUnits="userSpaceOnUse" x1="1191" y1="456" x2="1191" y2="519"><stop offset="0" stop-color="#a7773b"/><stop offset="1" stop-color="#7b552b"/></linearGradient>
+    <linearGradient id="paint-24" gradientUnits="userSpaceOnUse" x1="1337" y1="456" x2="1337" y2="519"><stop offset="0" stop-color="#4a463f"/><stop offset="1" stop-color="#33302b"/></linearGradient>
+    <linearGradient id="paint-25" gradientUnits="userSpaceOnUse" x1="1483" y1="456" x2="1483" y2="519"><stop offset="0" stop-color="#4a463f"/><stop offset="1" stop-color="#33302b"/></linearGradient>
+    <linearGradient id="paint-26" gradientUnits="userSpaceOnUse" x1="874" y1="612" x2="874" y2="656"><stop offset="0" stop-color="#8a6746"/><stop offset="1" stop-color="#654a33"/></linearGradient>
+    <linearGradient id="paint-27" gradientUnits="userSpaceOnUse" x1="970" y1="612" x2="970" y2="656"><stop offset="0" stop-color="#98795c"/><stop offset="1" stop-color="#77604b"/></linearGradient>
+    <linearGradient id="paint-28" gradientUnits="userSpaceOnUse" x1="1066" y1="615" x2="1066" y2="659"><stop offset="0" stop-color="#7f5f40"/><stop offset="1" stop-color="#5d442f"/></linearGradient>
+    <linearGradient id="paint-29" gradientUnits="userSpaceOnUse" x1="1162" y1="612" x2="1162" y2="656"><stop offset="0" stop-color="#ffc04d"/><stop offset="1" stop-color="#f2a01e"/></linearGradient>
+    <linearGradient id="paint-30" gradientUnits="userSpaceOnUse" x1="1258" y1="612" x2="1258" y2="656"><stop offset="0" stop-color="#4a463f"/><stop offset="1" stop-color="#4a463f"/></linearGradient>
+    <linearGradient id="paint-31" gradientUnits="userSpaceOnUse" x1="1354" y1="612" x2="1354" y2="656"><stop offset="0" stop-color="#8a6746"/><stop offset="1" stop-color="#654a33"/></linearGradient>
+    <linearGradient id="paint-32" gradientUnits="userSpaceOnUse" x1="1450" y1="612" x2="1450" y2="656"><stop offset="0" stop-color="#8a6746"/><stop offset="1" stop-color="#654a33"/></linearGradient>
+    <linearGradient id="paint-33" gradientUnits="userSpaceOnUse" x1="1018" y1="884" x2="1018" y2="1134"><stop offset="0" stop-color="#3a2a1e"/><stop offset="1" stop-color="#2a1e16"/></linearGradient>
+    <linearGradient id="paint-34" gradientUnits="userSpaceOnUse" x1="1018" y1="881" x2="1018" y2="1137"><stop offset="0" stop-color="#8a6746"/><stop offset="1" stop-color="#654a33"/></linearGradient>
+    <linearGradient id="paint-35" gradientUnits="userSpaceOnUse" x1="1018" y1="884" x2="1018" y2="930"><stop offset="0" stop-color="#594636"/><stop offset="1" stop-color="#4d3827"/></linearGradient>
+    <linearGradient id="paint-36" gradientUnits="userSpaceOnUse" x1="904" y1="1074" x2="904" y2="1114"><stop offset="0" stop-color="#8a6746"/><stop offset="1" stop-color="#654a33"/></linearGradient>
+    <linearGradient id="paint-37" gradientUnits="userSpaceOnUse" x1="1112" y1="1074" x2="1112" y2="1114"><stop offset="0" stop-color="#7fbf4a"/><stop offset="1" stop-color="#5e9e36"/></linearGradient>
+    <linearGradient id="paint-38" gradientUnits="userSpaceOnUse" x1="1393" y1="884" x2="1393" y2="1134"><stop offset="0" stop-color="#3a2a1e"/><stop offset="1" stop-color="#2a1e16"/></linearGradient>
+    <linearGradient id="paint-39" gradientUnits="userSpaceOnUse" x1="1393" y1="881" x2="1393" y2="1137"><stop offset="0" stop-color="#8a6746"/><stop offset="1" stop-color="#654a33"/></linearGradient>
+  </defs>
+  <rect id="World" width="1600" height="1180" fill="#1B1410"/>
+  <g id="DesignSystem" data-name="DesignSystem" data-class="ScreenGui">
+    <g id="Board" data-name="Board" data-class="Frame">
+      <rect x="0" y="58" width="1600" height="1122" fill="#1b1410"/>
+      <g id="Display" data-name="Display" data-class="TextLabel">
+        <text font-family="Fredoka One" font-weight="400" font-size="23.14" fill="#ffd98a" text-anchor="start" xml:space="preserve"><tspan x="32" y="106.54">Mushroom Guardians  -  Lobby design system</tspan></text>
+      </g>
+      <g id="Body" data-name="Body" data-class="TextLabel">
+        <text font-family="Nunito" font-weight="600" font-size="11.41" fill="#d9c29a" text-anchor="start" xml:space="preserve"><tspan x="32" y="131.35">Rendered from src/client/UI/Kit and design/tokens.json. Sizes are design units on a 1280x720 screen.</tspan></text>
+      </g>
+      <g id="Colour_paletteTitle" data-name="Colour paletteTitle" data-class="TextLabel">
+        <text font-family="Nunito" font-weight="800" font-size="9.89" fill="#ffd98a" text-anchor="start" xml:space="preserve"><tspan x="32" y="170.77">COLOUR PALETTE</tspan></text>
+      </g>
+      <g id="Colour_palette" data-name="Colour palette" data-class="Frame">
+        <g id="Caption" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#d9c29a" text-anchor="start" xml:space="preserve"><tspan x="32" y="199.48">Bark</tspan></text>
+        </g>
+        <g id="Bark950" data-name="Bark950" data-class="Frame">
+          <rect x="116" y="184" width="76" height="24" rx="6" fill="#120d0a"/>
+          <rect x="115.25" y="183.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-2" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="154" y="199.19">950  #120D0A</tspan></text>
+          </g>
+        </g>
+        <g id="Bark900" data-name="Bark900" data-class="Frame">
+          <rect x="198" y="184" width="76" height="24" rx="6" fill="#1b1410"/>
+          <rect x="197.25" y="183.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-3" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="236" y="199.19">900  #1B1410</tspan></text>
+          </g>
+        </g>
+        <g id="Bark800" data-name="Bark800" data-class="Frame">
+          <rect x="280" y="184" width="76" height="24" rx="6" fill="#2a1e16"/>
+          <rect x="279.25" y="183.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-4" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="318" y="199.19">800  #2A1E16</tspan></text>
+          </g>
+        </g>
+        <g id="Bark700" data-name="Bark700" data-class="Frame">
+          <rect x="362" y="184" width="76" height="24" rx="6" fill="#3a2a1e"/>
+          <rect x="361.25" y="183.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-5" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="400" y="199.19">700  #3A2A1E</tspan></text>
+          </g>
+        </g>
+        <g id="Bark600" data-name="Bark600" data-class="Frame">
+          <rect x="444" y="184" width="76" height="24" rx="6" fill="#4d3827"/>
+          <rect x="443.25" y="183.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-6" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="482" y="199.19">600  #4D3827</tspan></text>
+          </g>
+        </g>
+        <g id="Bark500" data-name="Bark500" data-class="Frame">
+          <rect x="526" y="184" width="76" height="24" rx="6" fill="#654a33"/>
+          <rect x="525.25" y="183.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-7" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="564" y="199.19">500  #654A33</tspan></text>
+          </g>
+        </g>
+        <g id="Bark400" data-name="Bark400" data-class="Frame">
+          <rect x="608" y="184" width="76" height="24" rx="6" fill="#8a6746"/>
+          <rect x="607.25" y="183.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-8" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="646" y="199.19">400  #8A6746</tspan></text>
+          </g>
+        </g>
+        <g id="Bark300" data-name="Bark300" data-class="Frame">
+          <rect x="690" y="184" width="76" height="24" rx="6" fill="#b08a62"/>
+          <rect x="689.25" y="183.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-9" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="728" y="199.19">300  #B08A62</tspan></text>
+          </g>
+        </g>
+        <g id="Caption-10" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#d9c29a" text-anchor="start" xml:space="preserve"><tspan x="32" y="229.48">Parchment</tspan></text>
+        </g>
+        <g id="Parchment500" data-name="Parchment500" data-class="Frame">
+          <rect x="116" y="214" width="76" height="24" rx="6" fill="#7a6850"/>
+          <rect x="115.25" y="213.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-11" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="154" y="229.19">500  #7A6850</tspan></text>
+          </g>
+        </g>
+        <g id="Parchment400" data-name="Parchment400" data-class="Frame">
+          <rect x="198" y="214" width="76" height="24" rx="6" fill="#a8916e"/>
+          <rect x="197.25" y="213.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-12" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="236" y="229.19">400  #A8916E</tspan></text>
+          </g>
+        </g>
+        <g id="Parchment300" data-name="Parchment300" data-class="Frame">
+          <rect x="280" y="214" width="76" height="24" rx="6" fill="#d9c29a"/>
+          <rect x="279.25" y="213.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-13" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="318" y="229.19">300  #D9C29A</tspan></text>
+          </g>
+        </g>
+        <g id="Parchment200" data-name="Parchment200" data-class="Frame">
+          <rect x="362" y="214" width="76" height="24" rx="6" fill="#f1dfbb"/>
+          <rect x="361.25" y="213.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-14" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="400" y="229.19">200  #F1DFBB</tspan></text>
+          </g>
+        </g>
+        <g id="Parchment100" data-name="Parchment100" data-class="Frame">
+          <rect x="444" y="214" width="76" height="24" rx="6" fill="#fff4dc"/>
+          <rect x="443.25" y="213.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-15" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="482" y="229.19">100  #FFF4DC</tspan></text>
+          </g>
+        </g>
+        <g id="Caption-16" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#d9c29a" text-anchor="start" xml:space="preserve"><tspan x="32" y="259.48">Moss</tspan></text>
+        </g>
+        <g id="Moss800" data-name="Moss800" data-class="Frame">
+          <rect x="116" y="244" width="76" height="24" rx="6" fill="#1f3d14"/>
+          <rect x="115.25" y="243.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-17" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="154" y="259.19">800  #1F3D14</tspan></text>
+          </g>
+        </g>
+        <g id="Moss700" data-name="Moss700" data-class="Frame">
+          <rect x="198" y="244" width="76" height="24" rx="6" fill="#2f5a1d"/>
+          <rect x="197.25" y="243.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-18" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="236" y="259.19">700  #2F5A1D</tspan></text>
+          </g>
+        </g>
+        <g id="Moss600" data-name="Moss600" data-class="Frame">
+          <rect x="280" y="244" width="76" height="24" rx="6" fill="#457a28"/>
+          <rect x="279.25" y="243.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-19" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="318" y="259.19">600  #457A28</tspan></text>
+          </g>
+        </g>
+        <g id="Moss500" data-name="Moss500" data-class="Frame">
+          <rect x="362" y="244" width="76" height="24" rx="6" fill="#5e9e36"/>
+          <rect x="361.25" y="243.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-20" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="400" y="259.19">500  #5E9E36</tspan></text>
+          </g>
+        </g>
+        <g id="Moss400" data-name="Moss400" data-class="Frame">
+          <rect x="444" y="244" width="76" height="24" rx="6" fill="#7fbf4a"/>
+          <rect x="443.25" y="243.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-21" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="482" y="259.19">400  #7FBF4A</tspan></text>
+          </g>
+        </g>
+        <g id="Moss300" data-name="Moss300" data-class="Frame">
+          <rect x="526" y="244" width="76" height="24" rx="6" fill="#a6d66b"/>
+          <rect x="525.25" y="243.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-22" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="564" y="259.19">300  #A6D66B</tspan></text>
+          </g>
+        </g>
+        <g id="Caption-23" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#d9c29a" text-anchor="start" xml:space="preserve"><tspan x="32" y="289.48">Amber</tspan></text>
+        </g>
+        <g id="Amber700" data-name="Amber700" data-class="Frame">
+          <rect x="116" y="274" width="76" height="24" rx="6" fill="#8f540a"/>
+          <rect x="115.25" y="273.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-24" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="154" y="289.19">700  #8F540A</tspan></text>
+          </g>
+        </g>
+        <g id="Amber600" data-name="Amber600" data-class="Frame">
+          <rect x="198" y="274" width="76" height="24" rx="6" fill="#c97a10"/>
+          <rect x="197.25" y="273.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-25" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="236" y="289.19">600  #C97A10</tspan></text>
+          </g>
+        </g>
+        <g id="Amber500" data-name="Amber500" data-class="Frame">
+          <rect x="280" y="274" width="76" height="24" rx="6" fill="#f2a01e"/>
+          <rect x="279.25" y="273.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-26" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="318" y="289.19">500  #F2A01E</tspan></text>
+          </g>
+        </g>
+        <g id="Amber400" data-name="Amber400" data-class="Frame">
+          <rect x="362" y="274" width="76" height="24" rx="6" fill="#ffc04d"/>
+          <rect x="361.25" y="273.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-27" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="400" y="289.19">400  #FFC04D</tspan></text>
+          </g>
+        </g>
+        <g id="Amber300" data-name="Amber300" data-class="Frame">
+          <rect x="444" y="274" width="76" height="24" rx="6" fill="#ffd98a"/>
+          <rect x="443.25" y="273.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-28" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="482" y="289.19">300  #FFD98A</tspan></text>
+          </g>
+        </g>
+        <g id="Caption-29" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#d9c29a" text-anchor="start" xml:space="preserve"><tspan x="32" y="319.48">Spore</tspan></text>
+        </g>
+        <g id="Spore700" data-name="Spore700" data-class="Frame">
+          <rect x="116" y="304" width="76" height="24" rx="6" fill="#155f58"/>
+          <rect x="115.25" y="303.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-30" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="154" y="319.19">700  #155F58</tspan></text>
+          </g>
+        </g>
+        <g id="Spore600" data-name="Spore600" data-class="Frame">
+          <rect x="198" y="304" width="76" height="24" rx="6" fill="#1f8c80"/>
+          <rect x="197.25" y="303.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-31" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="236" y="319.19">600  #1F8C80</tspan></text>
+          </g>
+        </g>
+        <g id="Spore500" data-name="Spore500" data-class="Frame">
+          <rect x="280" y="304" width="76" height="24" rx="6" fill="#2fb8a6"/>
+          <rect x="279.25" y="303.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-32" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="318" y="319.19">500  #2FB8A6</tspan></text>
+          </g>
+        </g>
+        <g id="Spore400" data-name="Spore400" data-class="Frame">
+          <rect x="362" y="304" width="76" height="24" rx="6" fill="#5fdcc8"/>
+          <rect x="361.25" y="303.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-33" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="400" y="319.19">400  #5FDCC8</tspan></text>
+          </g>
+        </g>
+        <g id="Spore300" data-name="Spore300" data-class="Frame">
+          <rect x="444" y="304" width="76" height="24" rx="6" fill="#9cf0e0"/>
+          <rect x="443.25" y="303.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-34" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="482" y="319.19">300  #9CF0E0</tspan></text>
+          </g>
+        </g>
+        <g id="Caption-35" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#d9c29a" text-anchor="start" xml:space="preserve"><tspan x="32" y="349.48">Crystal</tspan></text>
+        </g>
+        <g id="Crystal700" data-name="Crystal700" data-class="Frame">
+          <rect x="116" y="334" width="76" height="24" rx="6" fill="#46307f"/>
+          <rect x="115.25" y="333.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-36" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="154" y="349.19">700  #46307F</tspan></text>
+          </g>
+        </g>
+        <g id="Crystal600" data-name="Crystal600" data-class="Frame">
+          <rect x="198" y="334" width="76" height="24" rx="6" fill="#6645b8"/>
+          <rect x="197.25" y="333.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-37" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="236" y="349.19">600  #6645B8</tspan></text>
+          </g>
+        </g>
+        <g id="Crystal500" data-name="Crystal500" data-class="Frame">
+          <rect x="280" y="334" width="76" height="24" rx="6" fill="#8b63e6"/>
+          <rect x="279.25" y="333.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-38" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="318" y="349.19">500  #8B63E6</tspan></text>
+          </g>
+        </g>
+        <g id="Crystal400" data-name="Crystal400" data-class="Frame">
+          <rect x="362" y="334" width="76" height="24" rx="6" fill="#b08cff"/>
+          <rect x="361.25" y="333.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-39" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="400" y="349.19">400  #B08CFF</tspan></text>
+          </g>
+        </g>
+        <g id="Crystal300" data-name="Crystal300" data-class="Frame">
+          <rect x="444" y="334" width="76" height="24" rx="6" fill="#d2b8ff"/>
+          <rect x="443.25" y="333.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-40" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="482" y="349.19">300  #D2B8FF</tspan></text>
+          </g>
+        </g>
+        <g id="Caption-41" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#d9c29a" text-anchor="start" xml:space="preserve"><tspan x="32" y="379.48">Cap</tspan></text>
+        </g>
+        <g id="Cap700" data-name="Cap700" data-class="Frame">
+          <rect x="116" y="364" width="76" height="24" rx="6" fill="#74221c"/>
+          <rect x="115.25" y="363.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-42" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="154" y="379.19">700  #74221C</tspan></text>
+          </g>
+        </g>
+        <g id="Cap600" data-name="Cap600" data-class="Frame">
+          <rect x="198" y="364" width="76" height="24" rx="6" fill="#a8332a"/>
+          <rect x="197.25" y="363.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-43" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="236" y="379.19">600  #A8332A</tspan></text>
+          </g>
+        </g>
+        <g id="Cap500" data-name="Cap500" data-class="Frame">
+          <rect x="280" y="364" width="76" height="24" rx="6" fill="#d94a3a"/>
+          <rect x="279.25" y="363.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-44" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="318" y="379.19">500  #D94A3A</tspan></text>
+          </g>
+        </g>
+        <g id="Cap400" data-name="Cap400" data-class="Frame">
+          <rect x="362" y="364" width="76" height="24" rx="6" fill="#f26b57"/>
+          <rect x="361.25" y="363.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-45" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="400" y="379.19">400  #F26B57</tspan></text>
+          </g>
+        </g>
+        <g id="Cap300" data-name="Cap300" data-class="Frame">
+          <rect x="444" y="364" width="76" height="24" rx="6" fill="#ff9c8a"/>
+          <rect x="443.25" y="363.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-46" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="482" y="379.19">300  #FF9C8A</tspan></text>
+          </g>
+        </g>
+        <g id="Caption-47" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#d9c29a" text-anchor="start" xml:space="preserve"><tspan x="32" y="409.48">Stone</tspan></text>
+        </g>
+        <g id="Stone700" data-name="Stone700" data-class="Frame">
+          <rect x="116" y="394" width="76" height="24" rx="6" fill="#33302b"/>
+          <rect x="115.25" y="393.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-48" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="154" y="409.19">700  #33302B</tspan></text>
+          </g>
+        </g>
+        <g id="Stone600" data-name="Stone600" data-class="Frame">
+          <rect x="198" y="394" width="76" height="24" rx="6" fill="#4a463f"/>
+          <rect x="197.25" y="393.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-49" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="236" y="409.19">600  #4A463F</tspan></text>
+          </g>
+        </g>
+        <g id="Stone500" data-name="Stone500" data-class="Frame">
+          <rect x="280" y="394" width="76" height="24" rx="6" fill="#6b655a"/>
+          <rect x="279.25" y="393.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-50" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="318" y="409.19">500  #6B655A</tspan></text>
+          </g>
+        </g>
+        <g id="Stone400" data-name="Stone400" data-class="Frame">
+          <rect x="362" y="394" width="76" height="24" rx="6" fill="#8c8577"/>
+          <rect x="361.25" y="393.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-51" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="400" y="409.19">400  #8C8577</tspan></text>
+          </g>
+        </g>
+        <g id="Stone300" data-name="Stone300" data-class="Frame">
+          <rect x="444" y="394" width="76" height="24" rx="6" fill="#b5ad9c"/>
+          <rect x="443.25" y="393.25" width="77.5" height="25.5" rx="6.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          <g id="Caption-52" data-name="Caption" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="482" y="409.19">300  #B5AD9C</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g id="TypographyTitle" data-name="TypographyTitle" data-class="TextLabel">
+        <text font-family="Nunito" font-weight="800" font-size="9.89" fill="#ffd98a" text-anchor="start" xml:space="preserve"><tspan x="832" y="170.77">TYPOGRAPHY</tspan></text>
+      </g>
+      <g id="Typography" data-name="Typography" data-class="Frame">
+        <g id="Display-2" data-name="Display" data-class="TextLabel">
+          <text font-family="Fredoka One" font-weight="400" font-size="23.14" fill="#ffd98a" text-anchor="start" xml:space="preserve"><tspan x="832" y="211.54">Display 28 - Fredoka One</tspan></text>
+        </g>
+        <g id="Title" data-name="Title" data-class="TextLabel">
+          <text font-family="Fredoka One" font-weight="400" font-size="18.18" fill="#ffd98a" text-anchor="start" xml:space="preserve"><tspan x="832" y="249.71">Title 22 - Fredoka One</tspan></text>
+        </g>
+        <g id="Heading" data-name="Heading" data-class="TextLabel">
+          <text font-family="Fredoka One" font-weight="400" font-size="14.88" fill="#fff4dc" text-anchor="start" xml:space="preserve"><tspan x="832" y="281.99">Heading 18 - Fredoka One</tspan></text>
+        </g>
+        <g id="Body-2" data-name="Body" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="600" font-size="11.41" fill="#fff4dc" text-anchor="start" xml:space="preserve"><tspan x="832" y="309.85">Body 15 - Nunito SemiBold</tspan></text>
+        </g>
+        <g id="BodyStrong" data-name="BodyStrong" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="11.41" fill="#fff4dc" text-anchor="start" xml:space="preserve"><tspan x="832" y="336.85">Body strong 15 - Nunito Bold</tspan></text>
+        </g>
+        <g id="Label" data-name="Label" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="800" font-size="9.89" fill="#d9c29a" text-anchor="start" xml:space="preserve"><tspan x="832" y="361.77">LABEL 13 - NUNITO EXTRABOLD</tspan></text>
+        </g>
+        <g id="Caption-53" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="start" xml:space="preserve"><tspan x="832" y="384.98">Caption 12 - Nunito Bold (minimum size)</tspan></text>
+        </g>
+      </g>
+      <g id="Station_statusTitle" data-name="Station statusTitle" data-class="TextLabel">
+        <text font-family="Nunito" font-weight="800" font-size="9.89" fill="#ffd98a" text-anchor="start" xml:space="preserve"><tspan x="1224" y="170.77">STATION STATUS</tspan></text>
+      </g>
+      <g id="Station_status" data-name="Station status" data-class="Frame">
+        <g id="Chip" data-name="Chip" data-class="Frame">
+          <rect x="1224" y="184" width="44" height="22" rx="11" fill="#7fbf4a"/>
+          <g id="Text" data-name="Text" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="800" font-size="9.13" fill="#1b1410" text-anchor="start" xml:space="preserve"><tspan x="1233" y="198.48">OPEN</tspan></text>
+          </g>
+        </g>
+        <g id="Caption-54" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="start" xml:space="preserve"><tspan x="1216" y="219.48">Available</tspan></text>
+        </g>
+        <g id="Chip-2" data-name="Chip" data-class="Frame">
+          <rect x="1338" y="184" width="62" height="22" rx="11" fill="#ffc04d"/>
+          <g id="Text-2" data-name="Text" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="800" font-size="9.13" fill="#1b1410" text-anchor="start" xml:space="preserve"><tspan x="1347" y="198.48">FORMING</tspan></text>
+          </g>
+        </g>
+        <g id="Caption-55" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="start" xml:space="preserve"><tspan x="1330" y="219.48">Occupied</tspan></text>
+        </g>
+        <g id="Chip-3" data-name="Chip" data-class="Frame">
+          <rect x="1452" y="184" width="41" height="22" rx="11" fill="#b08cff"/>
+          <g id="Text-3" data-name="Text" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="800" font-size="9.13" fill="#1b1410" text-anchor="start" xml:space="preserve"><tspan x="1461" y="198.48">FULL</tspan></text>
+          </g>
+        </g>
+        <g id="Caption-56" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="start" xml:space="preserve"><tspan x="1444" y="219.48">Full</tspan></text>
+        </g>
+        <g id="Chip-4" data-name="Chip" data-class="Frame">
+          <rect x="1224" y="228" width="65" height="22" rx="11" fill="#5fdcc8"/>
+          <g id="Text-4" data-name="Text" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="800" font-size="9.13" fill="#1b1410" text-anchor="start" xml:space="preserve"><tspan x="1233" y="242.48">STARTING</tspan></text>
+          </g>
+        </g>
+        <g id="Caption-57" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="start" xml:space="preserve"><tspan x="1216" y="263.48">Starting</tspan></text>
+        </g>
+        <g id="Chip-5" data-name="Chip" data-class="Frame">
+          <rect x="1338" y="228" width="56" height="22" rx="11" fill="#8c8577"/>
+          <g id="Text-5" data-name="Text" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="800" font-size="9.13" fill="#1b1410" text-anchor="start" xml:space="preserve"><tspan x="1347" y="242.48">CLOSED</tspan></text>
+          </g>
+        </g>
+        <g id="Caption-58" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="start" xml:space="preserve"><tspan x="1330" y="263.48">Unavailable</tspan></text>
+        </g>
+        <g id="Chip-6" data-name="Chip" data-class="Frame">
+          <rect x="1452" y="228" width="50" height="22" rx="11" fill="#f26b57"/>
+          <g id="Text-6" data-name="Text" data-class="TextLabel">
+            <text font-family="Nunito" font-weight="800" font-size="9.13" fill="#1b1410" text-anchor="start" xml:space="preserve"><tspan x="1461" y="242.48">ERROR</tspan></text>
+          </g>
+        </g>
+        <g id="Caption-59" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="start" xml:space="preserve"><tspan x="1444" y="263.48">Error</tspan></text>
+        </g>
+      </g>
+      <g id="Station_accentsTitle" data-name="Station accentsTitle" data-class="TextLabel">
+        <text font-family="Nunito" font-weight="800" font-size="9.89" fill="#ffd98a" text-anchor="start" xml:space="preserve"><tspan x="1224" y="306.77">STATION ACCENTS</tspan></text>
+      </g>
+      <g id="Station_accents" data-name="Station accents" data-class="Frame">
+        <g id="solo" data-name="solo" data-class="Frame">
+          <rect x="1224" y="320" width="76" height="40" rx="10" fill="#ffc04d"/>
+          <rect x="1223" y="319" width="78" height="42" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+        </g>
+        <g id="Heading-2" data-name="Heading" data-class="TextLabel">
+          <text font-family="Fredoka One" font-weight="400" font-size="13.22" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="1262" y="344.88">Solo</tspan></text>
+        </g>
+        <g id="Caption-60" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="1262" y="377.48">1 player</tspan></text>
+        </g>
+        <g id="duo" data-name="duo" data-class="Frame">
+          <rect x="1310" y="320" width="76" height="40" rx="10" fill="#5fdcc8"/>
+          <rect x="1309" y="319" width="78" height="42" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+        </g>
+        <g id="Heading-3" data-name="Heading" data-class="TextLabel">
+          <text font-family="Fredoka One" font-weight="400" font-size="13.22" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="1348" y="344.88">Duo</tspan></text>
+        </g>
+        <g id="Caption-61" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="1348" y="377.48">2 players</tspan></text>
+        </g>
+        <g id="trio" data-name="trio" data-class="Frame">
+          <rect x="1396" y="320" width="76" height="40" rx="10" fill="#b08cff"/>
+          <rect x="1395" y="319" width="78" height="42" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+        </g>
+        <g id="Heading-4" data-name="Heading" data-class="TextLabel">
+          <text font-family="Fredoka One" font-weight="400" font-size="13.22" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="1434" y="344.88">Trio</tspan></text>
+        </g>
+        <g id="Caption-62" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="1434" y="377.48">3 players</tspan></text>
+        </g>
+        <g id="squad" data-name="squad" data-class="Frame">
+          <rect x="1482" y="320" width="76" height="40" rx="10" fill="#f26b57"/>
+          <rect x="1481" y="319" width="78" height="42" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+        </g>
+        <g id="Heading-5" data-name="Heading" data-class="TextLabel">
+          <text font-family="Fredoka One" font-weight="400" font-size="13.22" fill="#1b1410" text-anchor="middle" xml:space="preserve"><tspan x="1520" y="344.88">Squad</tspan></text>
+        </g>
+        <g id="Caption-63" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="1520" y="377.48">4 players</tspan></text>
+        </g>
+      </g>
+      <g id="Buttons__-__normal___hover___pressed___disabled___loadingTitle" data-name="Buttons  -  normal / hover / pressed / disabled / loadingTitle" data-class="TextLabel">
+        <text font-family="Nunito" font-weight="800" font-size="9.89" fill="#ffd98a" text-anchor="start" xml:space="preserve"><tspan x="32" y="442.77">BUTTONS  -  NORMAL / HOVER / PRESSED / DISABLED / LOADING</tspan></text>
+      </g>
+      <g id="Buttons__-__normal___hover___pressed___disabled___loading" data-name="Buttons  -  normal / hover / pressed / disabled / loading" data-class="Frame">
+        <g id="Caption-64" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="184" y="467.48">Normal</tspan></text>
+        </g>
+        <g id="Caption-65" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="318" y="467.48">Hover</tspan></text>
+        </g>
+        <g id="Caption-66" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="452" y="467.48">Pressed</tspan></text>
+        </g>
+        <g id="Caption-67" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="586" y="467.48">Disabled</tspan></text>
+        </g>
+        <g id="Caption-68" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="720" y="467.48">Loading</tspan></text>
+        </g>
+        <g id="Caption-69" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#d9c29a" text-anchor="start" xml:space="preserve"><tspan x="32" y="503.48">Primary</tspan></text>
+        </g>
+        <g id="CreateButton" data-name="CreateButton" data-class="Frame">
+          <g id="Ledge" data-name="Ledge" data-class="Frame">
+            <rect x="122" y="478" width="124" height="44" rx="10" fill="#2f5a1d"/>
+            <rect x="121" y="477" width="126" height="46" rx="11" fill="none" stroke="#1f3d14" stroke-width="2"/>
+          </g>
+          <g id="Face" data-name="Face" data-class="TextButton">
+            <rect x="122" y="478" width="124" height="40" rx="10" fill="url(#paint)"/>
+            <g id="Shine" data-name="Shine" data-class="Frame">
+              <rect x="129" y="481" width="110" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+            </g>
+            <g id="Content" data-name="Content" data-class="Frame">
+              <g id="Label-2" data-name="Label" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#fff4dc" text-anchor="middle" stroke="#2f5a1d" stroke-width="3" stroke-opacity="0.8" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="184" y="503.18">Create</tspan></text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="CreateButton-2" data-name="CreateButton" data-class="Frame">
+          <g id="Ledge-2" data-name="Ledge" data-class="Frame">
+            <rect x="256" y="478" width="124" height="44" rx="10" fill="#2f5a1d"/>
+            <rect x="255" y="477" width="126" height="46" rx="11" fill="none" stroke="#1f3d14" stroke-width="2"/>
+          </g>
+          <g id="Face-2" data-name="Face" data-class="TextButton">
+            <rect x="256" y="478" width="124" height="40" rx="10" fill="url(#paint-2)"/>
+            <g id="Shine-2" data-name="Shine" data-class="Frame">
+              <rect x="263" y="481" width="110" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+            </g>
+            <g id="Content-2" data-name="Content" data-class="Frame">
+              <g id="Label-3" data-name="Label" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#fff4dc" text-anchor="middle" stroke="#2f5a1d" stroke-width="3" stroke-opacity="0.8" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="318" y="503.18">Create</tspan></text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="CreateButton-3" data-name="CreateButton" data-class="Frame">
+          <g id="Ledge-3" data-name="Ledge" data-class="Frame">
+            <rect x="390" y="478" width="124" height="44" rx="10" fill="#2f5a1d"/>
+            <rect x="389" y="477" width="126" height="46" rx="11" fill="none" stroke="#1f3d14" stroke-width="2"/>
+          </g>
+          <g id="Face-3" data-name="Face" data-class="TextButton">
+            <rect x="390" y="481" width="124" height="40" rx="10" fill="url(#paint-3)"/>
+            <g id="Shine-3" data-name="Shine" data-class="Frame">
+              <rect x="397" y="484" width="110" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+            </g>
+            <g id="Content-3" data-name="Content" data-class="Frame">
+              <g id="Label-4" data-name="Label" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#fff4dc" text-anchor="middle" stroke="#2f5a1d" stroke-width="3" stroke-opacity="0.8" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="452" y="506.18">Create</tspan></text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="CreateButton-4" data-name="CreateButton" data-class="Frame">
+          <g id="Ledge-4" data-name="Ledge" data-class="Frame">
+            <rect x="524" y="478" width="124" height="44" rx="10" fill="#33302b"/>
+            <rect x="523" y="477" width="126" height="46" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-4" data-name="Face" data-class="TextButton">
+            <rect x="524" y="478" width="124" height="40" rx="10" fill="url(#paint-4)"/>
+            <g id="Shine-4" data-name="Shine" data-class="Frame">
+              <rect x="531" y="481" width="110" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+            </g>
+            <g id="Content-4" data-name="Content" data-class="Frame">
+              <g id="Label-5" data-name="Label" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#8c8577" text-anchor="middle" stroke="#33302b" stroke-width="3" stroke-opacity="0" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="586" y="503.18">Create</tspan></text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="CreateButton-5" data-name="CreateButton" data-class="Frame">
+          <g id="Ledge-5" data-name="Ledge" data-class="Frame">
+            <rect x="658" y="478" width="124" height="44" rx="10" fill="#2f5a1d"/>
+            <rect x="657" y="477" width="126" height="46" rx="11" fill="none" stroke="#1f3d14" stroke-width="2"/>
+          </g>
+          <g id="Face-5" data-name="Face" data-class="TextButton">
+            <rect x="658" y="478" width="124" height="40" rx="10" fill="url(#paint-5)"/>
+            <g id="Shine-5" data-name="Shine" data-class="Frame">
+              <rect x="665" y="481" width="110" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+            </g>
+            <g id="Content-5" data-name="Content" data-class="Frame">
+              <g id="Label-6" data-name="Label" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#fff4dc" text-anchor="middle" stroke="#2f5a1d" stroke-width="3" stroke-opacity="0.8" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="733.5" y="503.18">Create</tspan></text>
+              </g>
+              <g id="IconHolder" data-name="IconHolder" data-class="Frame">
+                <g id="Spinner" data-name="Spinner" data-class="Frame">
+                  <g id="Dot1" data-name="Dot1" data-class="Frame">
+                    <rect x="699" y="496" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.26"/>
+                  </g>
+                  <g id="Dot2" data-name="Dot2" data-class="Frame">
+                    <rect x="696" y="501" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.36"/>
+                  </g>
+                  <g id="Dot3" data-name="Dot3" data-class="Frame">
+                    <rect x="691" y="504" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.47"/>
+                  </g>
+                  <g id="Dot4" data-name="Dot4" data-class="Frame">
+                    <rect x="685" y="501" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.57"/>
+                  </g>
+                  <g id="Dot5" data-name="Dot5" data-class="Frame">
+                    <rect x="683" y="496" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.68"/>
+                  </g>
+                  <g id="Dot6" data-name="Dot6" data-class="Frame">
+                    <rect x="685" y="490" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.79"/>
+                  </g>
+                  <g id="Dot7" data-name="Dot7" data-class="Frame">
+                    <rect x="690" y="488" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.89"/>
+                  </g>
+                  <g id="Dot8" data-name="Dot8" data-class="Frame">
+                    <rect x="696" y="490" width="4" height="4" rx="2" fill="#fff4dc"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Caption-70" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#d9c29a" text-anchor="start" xml:space="preserve"><tspan x="32" y="561.48">Secondary</tspan></text>
+        </g>
+        <g id="CreateButton-6" data-name="CreateButton" data-class="Frame">
+          <g id="Ledge-6" data-name="Ledge" data-class="Frame">
+            <rect x="122" y="536" width="124" height="44" rx="10" fill="#3a2a1e"/>
+            <rect x="121" y="535" width="126" height="46" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-6" data-name="Face" data-class="TextButton">
+            <rect x="122" y="536" width="124" height="40" rx="10" fill="url(#paint-6)"/>
+            <g id="Shine-6" data-name="Shine" data-class="Frame">
+              <rect x="129" y="539" width="110" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+            </g>
+            <g id="Content-6" data-name="Content" data-class="Frame">
+              <g id="Label-7" data-name="Label" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#fff4dc" text-anchor="middle" stroke="#3a2a1e" stroke-width="3" stroke-opacity="0.8" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="197.5" y="561.18">Invite</tspan></text>
+              </g>
+              <g id="IconHolder-2" data-name="IconHolder" data-class="Frame">
+                <g id="UserPlusIcon" data-name="UserPlusIcon" data-class="Frame">
+                  <g id="rect1" data-name="rect1" data-class="Frame">
+                    <rect x="154.5" y="549" width="6" height="6" rx="3" fill="#fff4dc"/>
+                  </g>
+                  <g id="rect2" data-name="rect2" data-class="Frame">
+                    <rect x="152.5" y="557" width="11" height="6" rx="3" fill="#fff4dc"/>
+                  </g>
+                  <g id="rect3" data-name="rect3" data-class="Frame">
+                    <rect x="162.5" y="552" width="5" height="2" rx="1" fill="#fff4dc"/>
+                  </g>
+                  <g id="rect4" data-name="rect4" data-class="Frame" transform="rotate(90 165 553)">
+                    <rect x="162.5" y="552" width="5" height="2" rx="1" fill="#fff4dc"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="CreateButton-7" data-name="CreateButton" data-class="Frame">
+          <g id="Ledge-7" data-name="Ledge" data-class="Frame">
+            <rect x="256" y="536" width="124" height="44" rx="10" fill="#3a2a1e"/>
+            <rect x="255" y="535" width="126" height="46" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-7" data-name="Face" data-class="TextButton">
+            <rect x="256" y="536" width="124" height="40" rx="10" fill="url(#paint-7)"/>
+            <g id="Shine-7" data-name="Shine" data-class="Frame">
+              <rect x="263" y="539" width="110" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+            </g>
+            <g id="Content-7" data-name="Content" data-class="Frame">
+              <g id="Label-8" data-name="Label" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#fff4dc" text-anchor="middle" stroke="#3a2a1e" stroke-width="3" stroke-opacity="0.8" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="331.5" y="561.18">Invite</tspan></text>
+              </g>
+              <g id="IconHolder-3" data-name="IconHolder" data-class="Frame">
+                <g id="UserPlusIcon-2" data-name="UserPlusIcon" data-class="Frame">
+                  <g id="rect1-2" data-name="rect1" data-class="Frame">
+                    <rect x="288.5" y="549" width="6" height="6" rx="3" fill="#fff4dc"/>
+                  </g>
+                  <g id="rect2-2" data-name="rect2" data-class="Frame">
+                    <rect x="286.5" y="557" width="11" height="6" rx="3" fill="#fff4dc"/>
+                  </g>
+                  <g id="rect3-2" data-name="rect3" data-class="Frame">
+                    <rect x="296.5" y="552" width="5" height="2" rx="1" fill="#fff4dc"/>
+                  </g>
+                  <g id="rect4-2" data-name="rect4" data-class="Frame" transform="rotate(90 299 553)">
+                    <rect x="296.5" y="552" width="5" height="2" rx="1" fill="#fff4dc"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="CreateButton-8" data-name="CreateButton" data-class="Frame">
+          <g id="Ledge-8" data-name="Ledge" data-class="Frame">
+            <rect x="390" y="536" width="124" height="44" rx="10" fill="#3a2a1e"/>
+            <rect x="389" y="535" width="126" height="46" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-8" data-name="Face" data-class="TextButton">
+            <rect x="390" y="539" width="124" height="40" rx="10" fill="url(#paint-8)"/>
+            <g id="Shine-8" data-name="Shine" data-class="Frame">
+              <rect x="397" y="542" width="110" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+            </g>
+            <g id="Content-8" data-name="Content" data-class="Frame">
+              <g id="Label-9" data-name="Label" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#fff4dc" text-anchor="middle" stroke="#3a2a1e" stroke-width="3" stroke-opacity="0.8" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="465.5" y="564.18">Invite</tspan></text>
+              </g>
+              <g id="IconHolder-4" data-name="IconHolder" data-class="Frame">
+                <g id="UserPlusIcon-3" data-name="UserPlusIcon" data-class="Frame">
+                  <g id="rect1-3" data-name="rect1" data-class="Frame">
+                    <rect x="422.5" y="552" width="6" height="6" rx="3" fill="#fff4dc"/>
+                  </g>
+                  <g id="rect2-3" data-name="rect2" data-class="Frame">
+                    <rect x="420.5" y="560" width="11" height="6" rx="3" fill="#fff4dc"/>
+                  </g>
+                  <g id="rect3-3" data-name="rect3" data-class="Frame">
+                    <rect x="430.5" y="555" width="5" height="2" rx="1" fill="#fff4dc"/>
+                  </g>
+                  <g id="rect4-3" data-name="rect4" data-class="Frame" transform="rotate(90 433 556)">
+                    <rect x="430.5" y="555" width="5" height="2" rx="1" fill="#fff4dc"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="CreateButton-9" data-name="CreateButton" data-class="Frame">
+          <g id="Ledge-9" data-name="Ledge" data-class="Frame">
+            <rect x="524" y="536" width="124" height="44" rx="10" fill="#33302b"/>
+            <rect x="523" y="535" width="126" height="46" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-9" data-name="Face" data-class="TextButton">
+            <rect x="524" y="536" width="124" height="40" rx="10" fill="url(#paint-9)"/>
+            <g id="Shine-9" data-name="Shine" data-class="Frame">
+              <rect x="531" y="539" width="110" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+            </g>
+            <g id="Content-9" data-name="Content" data-class="Frame">
+              <g id="Label-10" data-name="Label" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#8c8577" text-anchor="middle" stroke="#33302b" stroke-width="3" stroke-opacity="0" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="599.5" y="561.18">Invite</tspan></text>
+              </g>
+              <g id="IconHolder-5" data-name="IconHolder" data-class="Frame">
+                <g id="UserPlusIcon-4" data-name="UserPlusIcon" data-class="Frame">
+                  <g id="rect1-4" data-name="rect1" data-class="Frame">
+                    <rect x="556.5" y="549" width="6" height="6" rx="3" fill="#8c8577"/>
+                  </g>
+                  <g id="rect2-4" data-name="rect2" data-class="Frame">
+                    <rect x="554.5" y="557" width="11" height="6" rx="3" fill="#8c8577"/>
+                  </g>
+                  <g id="rect3-4" data-name="rect3" data-class="Frame">
+                    <rect x="564.5" y="552" width="5" height="2" rx="1" fill="#8c8577"/>
+                  </g>
+                  <g id="rect4-4" data-name="rect4" data-class="Frame" transform="rotate(90 567 553)">
+                    <rect x="564.5" y="552" width="5" height="2" rx="1" fill="#8c8577"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="CreateButton-10" data-name="CreateButton" data-class="Frame">
+          <g id="Ledge-10" data-name="Ledge" data-class="Frame">
+            <rect x="658" y="536" width="124" height="44" rx="10" fill="#3a2a1e"/>
+            <rect x="657" y="535" width="126" height="46" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-10" data-name="Face" data-class="TextButton">
+            <rect x="658" y="536" width="124" height="40" rx="10" fill="url(#paint-10)"/>
+            <g id="Shine-10" data-name="Shine" data-class="Frame">
+              <rect x="665" y="539" width="110" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+            </g>
+            <g id="Content-10" data-name="Content" data-class="Frame">
+              <g id="Label-11" data-name="Label" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#fff4dc" text-anchor="middle" stroke="#3a2a1e" stroke-width="3" stroke-opacity="0.8" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="733.5" y="561.18">Invite</tspan></text>
+              </g>
+              <g id="IconHolder-6" data-name="IconHolder" data-class="Frame">
+                <g id="Spinner-2" data-name="Spinner" data-class="Frame">
+                  <g id="Dot1-2" data-name="Dot1" data-class="Frame">
+                    <rect x="702.5" y="554" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.26"/>
+                  </g>
+                  <g id="Dot2-2" data-name="Dot2" data-class="Frame">
+                    <rect x="699.5" y="559" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.36"/>
+                  </g>
+                  <g id="Dot3-2" data-name="Dot3" data-class="Frame">
+                    <rect x="694.5" y="562" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.47"/>
+                  </g>
+                  <g id="Dot4-2" data-name="Dot4" data-class="Frame">
+                    <rect x="688.5" y="559" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.57"/>
+                  </g>
+                  <g id="Dot5-2" data-name="Dot5" data-class="Frame">
+                    <rect x="686.5" y="554" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.68"/>
+                  </g>
+                  <g id="Dot6-2" data-name="Dot6" data-class="Frame">
+                    <rect x="688.5" y="548" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.79"/>
+                  </g>
+                  <g id="Dot7-2" data-name="Dot7" data-class="Frame">
+                    <rect x="693.5" y="546" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.89"/>
+                  </g>
+                  <g id="Dot8-2" data-name="Dot8" data-class="Frame">
+                    <rect x="699.5" y="548" width="4" height="4" rx="2" fill="#fff4dc"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Caption-71" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#d9c29a" text-anchor="start" xml:space="preserve"><tspan x="32" y="619.48">Accent</tspan></text>
+        </g>
+        <g id="ReadyButton" data-name="ReadyButton" data-class="Frame">
+          <g id="Ledge-11" data-name="Ledge" data-class="Frame">
+            <rect x="122" y="594" width="124" height="44" rx="10" fill="#8f540a"/>
+            <rect x="121" y="593" width="126" height="46" rx="11" fill="none" stroke="#1b1410" stroke-width="2"/>
+          </g>
+          <g id="Face-11" data-name="Face" data-class="TextButton">
+            <rect x="122" y="594" width="124" height="40" rx="10" fill="url(#paint-11)"/>
+            <g id="Shine-11" data-name="Shine" data-class="Frame">
+              <rect x="129" y="597" width="110" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+            </g>
+            <g id="Content-11" data-name="Content" data-class="Frame">
+              <g id="Label-12" data-name="Label" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#1b1410" text-anchor="middle" stroke="#8f540a" stroke-width="3" stroke-opacity="0" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="184" y="619.18">Ready</tspan></text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="ReadyButton-2" data-name="ReadyButton" data-class="Frame">
+          <g id="Ledge-12" data-name="Ledge" data-class="Frame">
+            <rect x="256" y="594" width="124" height="44" rx="10" fill="#8f540a"/>
+            <rect x="255" y="593" width="126" height="46" rx="11" fill="none" stroke="#1b1410" stroke-width="2"/>
+          </g>
+          <g id="Face-12" data-name="Face" data-class="TextButton">
+            <rect x="256" y="594" width="124" height="40" rx="10" fill="url(#paint-12)"/>
+            <g id="Shine-12" data-name="Shine" data-class="Frame">
+              <rect x="263" y="597" width="110" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+            </g>
+            <g id="Content-12" data-name="Content" data-class="Frame">
+              <g id="Label-13" data-name="Label" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#1b1410" text-anchor="middle" stroke="#8f540a" stroke-width="3" stroke-opacity="0" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="318" y="619.18">Ready</tspan></text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="ReadyButton-3" data-name="ReadyButton" data-class="Frame">
+          <g id="Ledge-13" data-name="Ledge" data-class="Frame">
+            <rect x="390" y="594" width="124" height="44" rx="10" fill="#8f540a"/>
+            <rect x="389" y="593" width="126" height="46" rx="11" fill="none" stroke="#1b1410" stroke-width="2"/>
+          </g>
+          <g id="Face-13" data-name="Face" data-class="TextButton">
+            <rect x="390" y="597" width="124" height="40" rx="10" fill="url(#paint-13)"/>
+            <g id="Shine-13" data-name="Shine" data-class="Frame">
+              <rect x="397" y="600" width="110" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+            </g>
+            <g id="Content-13" data-name="Content" data-class="Frame">
+              <g id="Label-14" data-name="Label" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#1b1410" text-anchor="middle" stroke="#8f540a" stroke-width="3" stroke-opacity="0" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="452" y="622.18">Ready</tspan></text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="ReadyButton-4" data-name="ReadyButton" data-class="Frame">
+          <g id="Ledge-14" data-name="Ledge" data-class="Frame">
+            <rect x="524" y="594" width="124" height="44" rx="10" fill="#33302b"/>
+            <rect x="523" y="593" width="126" height="46" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-14" data-name="Face" data-class="TextButton">
+            <rect x="524" y="594" width="124" height="40" rx="10" fill="url(#paint-14)"/>
+            <g id="Shine-14" data-name="Shine" data-class="Frame">
+              <rect x="531" y="597" width="110" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+            </g>
+            <g id="Content-14" data-name="Content" data-class="Frame">
+              <g id="Label-15" data-name="Label" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#8c8577" text-anchor="middle" stroke="#33302b" stroke-width="3" stroke-opacity="0" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="586" y="619.18">Ready</tspan></text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="ReadyButton-5" data-name="ReadyButton" data-class="Frame">
+          <g id="Ledge-15" data-name="Ledge" data-class="Frame">
+            <rect x="658" y="594" width="124" height="44" rx="10" fill="#8f540a"/>
+            <rect x="657" y="593" width="126" height="46" rx="11" fill="none" stroke="#1b1410" stroke-width="2"/>
+          </g>
+          <g id="Face-15" data-name="Face" data-class="TextButton">
+            <rect x="658" y="594" width="124" height="40" rx="10" fill="url(#paint-15)"/>
+            <g id="Shine-15" data-name="Shine" data-class="Frame">
+              <rect x="665" y="597" width="110" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+            </g>
+            <g id="Content-15" data-name="Content" data-class="Frame">
+              <g id="Label-16" data-name="Label" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#1b1410" text-anchor="middle" stroke="#8f540a" stroke-width="3" stroke-opacity="0" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="733.5" y="619.18">Ready</tspan></text>
+              </g>
+              <g id="IconHolder-7" data-name="IconHolder" data-class="Frame">
+                <g id="Spinner-3" data-name="Spinner" data-class="Frame">
+                  <g id="Dot1-3" data-name="Dot1" data-class="Frame">
+                    <rect x="701" y="612" width="4" height="4" rx="2" fill="#1b1410" fill-opacity="0.26"/>
+                  </g>
+                  <g id="Dot2-3" data-name="Dot2" data-class="Frame">
+                    <rect x="698" y="617" width="4" height="4" rx="2" fill="#1b1410" fill-opacity="0.36"/>
+                  </g>
+                  <g id="Dot3-3" data-name="Dot3" data-class="Frame">
+                    <rect x="693" y="620" width="4" height="4" rx="2" fill="#1b1410" fill-opacity="0.47"/>
+                  </g>
+                  <g id="Dot4-3" data-name="Dot4" data-class="Frame">
+                    <rect x="687" y="617" width="4" height="4" rx="2" fill="#1b1410" fill-opacity="0.57"/>
+                  </g>
+                  <g id="Dot5-3" data-name="Dot5" data-class="Frame">
+                    <rect x="685" y="612" width="4" height="4" rx="2" fill="#1b1410" fill-opacity="0.68"/>
+                  </g>
+                  <g id="Dot6-3" data-name="Dot6" data-class="Frame">
+                    <rect x="687" y="606" width="4" height="4" rx="2" fill="#1b1410" fill-opacity="0.79"/>
+                  </g>
+                  <g id="Dot7-3" data-name="Dot7" data-class="Frame">
+                    <rect x="692" y="604" width="4" height="4" rx="2" fill="#1b1410" fill-opacity="0.89"/>
+                  </g>
+                  <g id="Dot8-3" data-name="Dot8" data-class="Frame">
+                    <rect x="698" y="606" width="4" height="4" rx="2" fill="#1b1410"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Caption-72" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#d9c29a" text-anchor="start" xml:space="preserve"><tspan x="32" y="677.48">Danger</tspan></text>
+        </g>
+        <g id="LeaveButton" data-name="LeaveButton" data-class="Frame">
+          <g id="Ledge-16" data-name="Ledge" data-class="Frame">
+            <rect x="122" y="652" width="124" height="44" rx="10" fill="#74221c"/>
+            <rect x="121" y="651" width="126" height="46" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-16" data-name="Face" data-class="TextButton">
+            <rect x="122" y="652" width="124" height="40" rx="10" fill="url(#paint-16)"/>
+            <g id="Shine-16" data-name="Shine" data-class="Frame">
+              <rect x="129" y="655" width="110" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+            </g>
+            <g id="Content-16" data-name="Content" data-class="Frame">
+              <g id="Label-17" data-name="Label" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#fff4dc" text-anchor="middle" stroke="#74221c" stroke-width="3" stroke-opacity="0.8" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="184" y="677.18">Leave</tspan></text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="LeaveButton-2" data-name="LeaveButton" data-class="Frame">
+          <g id="Ledge-17" data-name="Ledge" data-class="Frame">
+            <rect x="256" y="652" width="124" height="44" rx="10" fill="#74221c"/>
+            <rect x="255" y="651" width="126" height="46" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-17" data-name="Face" data-class="TextButton">
+            <rect x="256" y="652" width="124" height="40" rx="10" fill="url(#paint-17)"/>
+            <g id="Shine-17" data-name="Shine" data-class="Frame">
+              <rect x="263" y="655" width="110" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+            </g>
+            <g id="Content-17" data-name="Content" data-class="Frame">
+              <g id="Label-18" data-name="Label" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#fff4dc" text-anchor="middle" stroke="#74221c" stroke-width="3" stroke-opacity="0.8" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="318" y="677.18">Leave</tspan></text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="LeaveButton-3" data-name="LeaveButton" data-class="Frame">
+          <g id="Ledge-18" data-name="Ledge" data-class="Frame">
+            <rect x="390" y="652" width="124" height="44" rx="10" fill="#74221c"/>
+            <rect x="389" y="651" width="126" height="46" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-18" data-name="Face" data-class="TextButton">
+            <rect x="390" y="655" width="124" height="40" rx="10" fill="url(#paint-18)"/>
+            <g id="Shine-18" data-name="Shine" data-class="Frame">
+              <rect x="397" y="658" width="110" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+            </g>
+            <g id="Content-18" data-name="Content" data-class="Frame">
+              <g id="Label-19" data-name="Label" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#fff4dc" text-anchor="middle" stroke="#74221c" stroke-width="3" stroke-opacity="0.8" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="452" y="680.18">Leave</tspan></text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="LeaveButton-4" data-name="LeaveButton" data-class="Frame">
+          <g id="Ledge-19" data-name="Ledge" data-class="Frame">
+            <rect x="524" y="652" width="124" height="44" rx="10" fill="#33302b"/>
+            <rect x="523" y="651" width="126" height="46" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-19" data-name="Face" data-class="TextButton">
+            <rect x="524" y="652" width="124" height="40" rx="10" fill="url(#paint-19)"/>
+            <g id="Shine-19" data-name="Shine" data-class="Frame">
+              <rect x="531" y="655" width="110" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+            </g>
+            <g id="Content-19" data-name="Content" data-class="Frame">
+              <g id="Label-20" data-name="Label" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#8c8577" text-anchor="middle" stroke="#33302b" stroke-width="3" stroke-opacity="0" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="586" y="677.18">Leave</tspan></text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="LeaveButton-5" data-name="LeaveButton" data-class="Frame">
+          <g id="Ledge-20" data-name="Ledge" data-class="Frame">
+            <rect x="658" y="652" width="124" height="44" rx="10" fill="#74221c"/>
+            <rect x="657" y="651" width="126" height="46" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-20" data-name="Face" data-class="TextButton">
+            <rect x="658" y="652" width="124" height="40" rx="10" fill="url(#paint-20)"/>
+            <g id="Shine-20" data-name="Shine" data-class="Frame">
+              <rect x="665" y="655" width="110" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+            </g>
+            <g id="Content-20" data-name="Content" data-class="Frame">
+              <g id="Label-21" data-name="Label" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#fff4dc" text-anchor="middle" stroke="#74221c" stroke-width="3" stroke-opacity="0.8" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="733.5" y="677.18">Leave</tspan></text>
+              </g>
+              <g id="IconHolder-8" data-name="IconHolder" data-class="Frame">
+                <g id="Spinner-4" data-name="Spinner" data-class="Frame">
+                  <g id="Dot1-4" data-name="Dot1" data-class="Frame">
+                    <rect x="701.5" y="670" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.26"/>
+                  </g>
+                  <g id="Dot2-4" data-name="Dot2" data-class="Frame">
+                    <rect x="698.5" y="675" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.36"/>
+                  </g>
+                  <g id="Dot3-4" data-name="Dot3" data-class="Frame">
+                    <rect x="693.5" y="678" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.47"/>
+                  </g>
+                  <g id="Dot4-4" data-name="Dot4" data-class="Frame">
+                    <rect x="687.5" y="675" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.57"/>
+                  </g>
+                  <g id="Dot5-4" data-name="Dot5" data-class="Frame">
+                    <rect x="685.5" y="670" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.68"/>
+                  </g>
+                  <g id="Dot6-4" data-name="Dot6" data-class="Frame">
+                    <rect x="687.5" y="664" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.79"/>
+                  </g>
+                  <g id="Dot7-4" data-name="Dot7" data-class="Frame">
+                    <rect x="692.5" y="662" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.89"/>
+                  </g>
+                  <g id="Dot8-4" data-name="Dot8" data-class="Frame">
+                    <rect x="698.5" y="664" width="4" height="4" rx="2" fill="#fff4dc"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Cards__-__normal___hover___selected___locked___disabledTitle" data-name="Cards  -  normal / hover / selected / locked / disabledTitle" data-class="TextLabel">
+        <text font-family="Nunito" font-weight="800" font-size="9.89" fill="#ffd98a" text-anchor="start" xml:space="preserve"><tspan x="832" y="442.77">CARDS  -  NORMAL / HOVER / SELECTED / LOCKED / DISABLED</tspan></text>
+      </g>
+      <g id="Cards__-__normal___hover___selected___locked___disabled" data-name="Cards  -  normal / hover / selected / locked / disabled" data-class="Frame">
+        <g id="Card" data-name="Card" data-class="Frame">
+          <g id="Ledge-21" data-name="Ledge" data-class="Frame">
+            <rect x="832" y="456" width="134" height="66" rx="10" fill="#120d0a"/>
+            <rect x="831" y="455" width="136" height="68" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-21" data-name="Face" data-class="TextButton">
+            <rect x="832" y="456" width="134" height="63" rx="10" fill="url(#paint-21)"/>
+            <g id="Content-21" data-name="Content" data-class="Frame">
+              <g id="Heading-6" data-name="Heading" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.88" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="899" y="481.49">Normal</tspan></text>
+              </g>
+              <g id="Frame" data-name="Frame" data-class="Frame">
+                <g id="DiamondIcon" data-name="DiamondIcon" data-class="Frame">
+                  <g id="rect1-5" data-name="rect1" data-class="Frame" transform="rotate(45 898 498)">
+                    <rect x="895" y="495" width="6" height="6" rx="1" fill="#ffc04d"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Caption-73" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="899" y="543.48">Normal</tspan></text>
+        </g>
+        <g id="Card-2" data-name="Card" data-class="Frame">
+          <g id="Ledge-22" data-name="Ledge" data-class="Frame">
+            <rect x="978" y="456" width="134" height="66" rx="10" fill="#120d0a"/>
+            <rect x="977" y="455" width="136" height="68" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-22" data-name="Face" data-class="TextButton">
+            <rect x="978" y="456" width="134" height="63" rx="10" fill="url(#paint-22)"/>
+            <g id="Content-22" data-name="Content" data-class="Frame">
+              <g id="Heading-7" data-name="Heading" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.88" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="1045" y="481.49">Normal</tspan></text>
+              </g>
+              <g id="Frame-2" data-name="Frame" data-class="Frame">
+                <g id="DiamondIcon-2" data-name="DiamondIcon" data-class="Frame">
+                  <g id="rect1-6" data-name="rect1" data-class="Frame" transform="rotate(45 1044 498)">
+                    <rect x="1041" y="495" width="6" height="6" rx="1" fill="#ffc04d"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Caption-74" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="1045" y="543.48">Hover</tspan></text>
+        </g>
+        <g id="Card-3" data-name="Card" data-class="Frame">
+          <g id="Ledge-23" data-name="Ledge" data-class="Frame">
+            <rect x="1124" y="456" width="134" height="66" rx="10" fill="#120d0a"/>
+            <rect x="1122.75" y="454.75" width="136.5" height="68.5" rx="11.25" fill="none" stroke="#ffc04d" stroke-width="2.5"/>
+          </g>
+          <g id="Face-23" data-name="Face" data-class="TextButton">
+            <rect x="1124" y="456" width="134" height="63" rx="10" fill="url(#paint-23)"/>
+            <g id="Content-23" data-name="Content" data-class="Frame">
+              <g id="Heading-8" data-name="Heading" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.88" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="1191" y="481.49">Normal</tspan></text>
+              </g>
+              <g id="Frame-3" data-name="Frame" data-class="Frame">
+                <g id="DiamondIcon-3" data-name="DiamondIcon" data-class="Frame">
+                  <g id="rect1-7" data-name="rect1" data-class="Frame" transform="rotate(45 1190 498)">
+                    <rect x="1187" y="495" width="6" height="6" rx="1" fill="#ffc04d"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="SelectedBadge" data-name="SelectedBadge" data-class="Frame">
+            <rect x="1242" y="450" width="22" height="22" rx="11" fill="#ffc04d"/>
+            <rect x="1241" y="449" width="24" height="24" rx="12" fill="none" stroke="#120d0a" stroke-width="2"/>
+            <g id="CheckIcon" data-name="CheckIcon" data-class="Frame">
+              <g id="rect1-8" data-name="rect1" data-class="Frame" transform="rotate(45 1250 461.5)">
+                <rect x="1248" y="461" width="4" height="1" fill="#1b1410"/>
+              </g>
+              <g id="rect2-5" data-name="rect2" data-class="Frame" transform="rotate(-45 1253.5 459.5)">
+                <rect x="1250" y="459" width="7" height="1" fill="#1b1410"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Caption-75" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="1191" y="543.48">Selected</tspan></text>
+        </g>
+        <g id="Card-4" data-name="Card" data-class="Frame">
+          <g id="Ledge-24" data-name="Ledge" data-class="Frame">
+            <rect x="1270" y="456" width="134" height="66" rx="10" fill="#120d0a"/>
+            <rect x="1269" y="455" width="136" height="68" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-24" data-name="Face" data-class="TextButton">
+            <rect x="1270" y="456" width="134" height="63" rx="10" fill="url(#paint-24)"/>
+            <g id="Content-24" data-name="Content" data-class="Frame">
+              <g id="Heading-9" data-name="Heading" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.88" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="1337" y="481.49">Hard</tspan></text>
+              </g>
+              <g id="Frame-4" data-name="Frame" data-class="Frame">
+                <g id="DiamondIcon-4" data-name="DiamondIcon" data-class="Frame">
+                  <g id="rect1-9" data-name="rect1" data-class="Frame" transform="rotate(45 1327.5 498)">
+                    <rect x="1324.5" y="495" width="6" height="6" rx="1" fill="#ffc04d"/>
+                  </g>
+                </g>
+                <g id="DiamondIcon-5" data-name="DiamondIcon" data-class="Frame">
+                  <g id="rect1-10" data-name="rect1" data-class="Frame" transform="rotate(45 1344.5 498)">
+                    <rect x="1341.5" y="495" width="6" height="6" rx="1" fill="#ffc04d"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g id="LockVeil" data-name="LockVeil" data-class="Frame">
+              <rect x="1270" y="456" width="134" height="63" rx="10" fill="#120d0a" fill-opacity="0.55"/>
+            </g>
+          </g>
+          <g id="LockBadge" data-name="LockBadge" data-class="Frame">
+            <rect x="1388" y="450" width="22" height="22" rx="11" fill="#8b63e6"/>
+            <rect x="1387" y="449" width="24" height="24" rx="12" fill="none" stroke="#120d0a" stroke-width="2"/>
+            <g id="LockIcon" data-name="LockIcon" data-class="Frame">
+              <g id="ring1" data-name="ring1" data-class="Frame">
+                <rect x="1396.24" y="456.24" width="3.52" height="4.52" rx="1.76" fill="none" stroke="#fff4dc" stroke-width="1.52"/>
+              </g>
+              <g id="rect2-6" data-name="rect2" data-class="Frame">
+                <rect x="1394" y="459" width="8" height="6" rx="1" fill="#fff4dc"/>
+              </g>
+              <g id="rect3-5" data-name="rect3" data-class="Frame">
+                <rect x="1398" y="461" width="1" height="1" fill="#8b63e6"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Caption-76" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="1337" y="543.48">Locked</tspan></text>
+        </g>
+        <g id="Card-5" data-name="Card" data-class="Frame">
+          <g id="Ledge-25" data-name="Ledge" data-class="Frame">
+            <rect x="1416" y="456" width="134" height="66" rx="10" fill="#120d0a"/>
+            <rect x="1415" y="455" width="136" height="68" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-25" data-name="Face" data-class="TextButton">
+            <rect x="1416" y="456" width="134" height="63" rx="10" fill="url(#paint-25)"/>
+            <g id="Content-25" data-name="Content" data-class="Frame">
+              <g id="Heading-10" data-name="Heading" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="14.88" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="1483" y="481.49">Normal</tspan></text>
+              </g>
+              <g id="Frame-5" data-name="Frame" data-class="Frame">
+                <g id="DiamondIcon-6" data-name="DiamondIcon" data-class="Frame">
+                  <g id="rect1-11" data-name="rect1" data-class="Frame" transform="rotate(45 1482 498)">
+                    <rect x="1479" y="495" width="6" height="6" rx="1" fill="#ffc04d"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Caption-77" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="1483" y="543.48">Disabled</tspan></text>
+        </g>
+      </g>
+      <g id="Icon_buttons__-__normal___hover___pressed___selected___disabled___badgeTitle" data-name="Icon buttons  -  normal / hover / pressed / selected / disabled / badgeTitle" data-class="TextLabel">
+        <text font-family="Nunito" font-weight="800" font-size="9.89" fill="#ffd98a" text-anchor="start" xml:space="preserve"><tspan x="832" y="598.77">ICON BUTTONS  -  NORMAL / HOVER / PRESSED / SELECTED / DISABLED / BADGE</tspan></text>
+      </g>
+      <g id="Icon_buttons__-__normal___hover___pressed___selected___disabled___badge" data-name="Icon buttons  -  normal / hover / pressed / selected / disabled / badge" data-class="Frame">
+        <g id="PartyButton" data-name="PartyButton" data-class="Frame">
+          <g id="Ledge-26" data-name="Ledge" data-class="Frame">
+            <rect x="852" y="612" width="44" height="48" rx="12" fill="#3a2a1e"/>
+            <rect x="851" y="611" width="46" height="50" rx="13" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-26" data-name="Face" data-class="TextButton">
+            <rect x="852" y="612" width="44" height="44" rx="12" fill="url(#paint-26)"/>
+            <g id="Shine-21" data-name="Shine" data-class="Frame">
+              <rect x="858" y="615" width="32" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.2"/>
+            </g>
+            <g id="IconHolder-9" data-name="IconHolder" data-class="Frame">
+              <g id="PartyIcon" data-name="PartyIcon" data-class="Frame">
+                <g id="rect1-12" data-name="rect1" data-class="Frame">
+                  <rect x="876" y="627" width="5" height="5" rx="2" fill="#fff4dc" fill-opacity="0.5"/>
+                </g>
+                <g id="rect2-7" data-name="rect2" data-class="Frame">
+                  <rect x="875" y="634" width="8" height="6" rx="3" fill="#fff4dc" fill-opacity="0.5"/>
+                </g>
+                <g id="rect3-6" data-name="rect3" data-class="Frame">
+                  <rect x="867" y="626" width="7" height="7" rx="3" fill="#fff4dc"/>
+                </g>
+                <g id="rect4-5" data-name="rect4" data-class="Frame">
+                  <rect x="865" y="634" width="12" height="8" rx="4" fill="#fff4dc"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Caption-78" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="874" y="681.48">Normal</tspan></text>
+        </g>
+        <g id="BellButton" data-name="BellButton" data-class="Frame">
+          <g id="Ledge-27" data-name="Ledge" data-class="Frame">
+            <rect x="948" y="612" width="44" height="48" rx="12" fill="#3a2a1e"/>
+            <rect x="947" y="611" width="46" height="50" rx="13" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-27" data-name="Face" data-class="TextButton">
+            <rect x="948" y="612" width="44" height="44" rx="12" fill="url(#paint-27)"/>
+            <g id="Shine-22" data-name="Shine" data-class="Frame">
+              <rect x="954" y="615" width="32" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.2"/>
+            </g>
+            <g id="IconHolder-10" data-name="IconHolder" data-class="Frame">
+              <g id="BellIcon" data-name="BellIcon" data-class="Frame">
+                <g id="rect1-13" data-name="rect1" data-class="Frame">
+                  <rect x="968" y="624" width="3" height="3" rx="1" fill="#fff4dc"/>
+                </g>
+                <g id="rect2-8" data-name="rect2" data-class="Frame">
+                  <rect x="964" y="626" width="11" height="13" rx="5" fill="#fff4dc"/>
+                </g>
+                <g id="rect3-7" data-name="rect3" data-class="Frame">
+                  <rect x="962" y="636" width="16" height="3" rx="1" fill="#fff4dc"/>
+                </g>
+                <g id="rect4-6" data-name="rect4" data-class="Frame">
+                  <rect x="968" y="640" width="3" height="3" rx="1" fill="#fff4dc"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Caption-79" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="970" y="681.48">Hover</tspan></text>
+        </g>
+        <g id="GearButton" data-name="GearButton" data-class="Frame">
+          <g id="Ledge-28" data-name="Ledge" data-class="Frame">
+            <rect x="1044" y="612" width="44" height="48" rx="12" fill="#3a2a1e"/>
+            <rect x="1043" y="611" width="46" height="50" rx="13" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-28" data-name="Face" data-class="TextButton">
+            <rect x="1044" y="615" width="44" height="44" rx="12" fill="url(#paint-28)"/>
+            <g id="Shine-23" data-name="Shine" data-class="Frame">
+              <rect x="1050" y="618" width="32" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.2"/>
+            </g>
+            <g id="IconHolder-11" data-name="IconHolder" data-class="Frame">
+              <g id="GearIcon" data-name="GearIcon" data-class="Frame">
+                <g id="ring1-2" data-name="ring1" data-class="Frame">
+                  <rect x="1060.4" y="631.4" width="9.2" height="9.2" rx="4.6" fill="none" stroke="#fff4dc" stroke-width="3.2"/>
+                </g>
+                <g id="rect2-9" data-name="rect2" data-class="Frame">
+                  <rect x="1072" y="634" width="4" height="4" rx="1" fill="#fff4dc"/>
+                </g>
+                <g id="rect3-8" data-name="rect3" data-class="Frame" transform="rotate(45 1072 643)">
+                  <rect x="1070" y="641" width="4" height="4" rx="1" fill="#fff4dc"/>
+                </g>
+                <g id="rect4-7" data-name="rect4" data-class="Frame" transform="rotate(90 1065 645)">
+                  <rect x="1063" y="643" width="4" height="4" rx="1" fill="#fff4dc"/>
+                </g>
+                <g id="rect5" data-name="rect5" data-class="Frame" transform="rotate(135 1059 643)">
+                  <rect x="1057" y="641" width="4" height="4" rx="1" fill="#fff4dc"/>
+                </g>
+                <g id="rect6" data-name="rect6" data-class="Frame" transform="rotate(180 1056 636)">
+                  <rect x="1054" y="634" width="4" height="4" rx="1" fill="#fff4dc"/>
+                </g>
+                <g id="rect7" data-name="rect7" data-class="Frame" transform="rotate(225 1059 630)">
+                  <rect x="1057" y="628" width="4" height="4" rx="1" fill="#fff4dc"/>
+                </g>
+                <g id="rect8" data-name="rect8" data-class="Frame" transform="rotate(270 1065 627)">
+                  <rect x="1063" y="625" width="4" height="4" rx="1" fill="#fff4dc"/>
+                </g>
+                <g id="rect9" data-name="rect9" data-class="Frame" transform="rotate(315 1072 630)">
+                  <rect x="1070" y="628" width="4" height="4" rx="1" fill="#fff4dc"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Caption-80" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="1066" y="681.48">Pressed</tspan></text>
+        </g>
+        <g id="BellButton-2" data-name="BellButton" data-class="Frame">
+          <g id="Ledge-29" data-name="Ledge" data-class="Frame">
+            <rect x="1140" y="612" width="44" height="48" rx="12" fill="#8f540a"/>
+            <rect x="1139" y="611" width="46" height="50" rx="13" fill="none" stroke="#1b1410" stroke-width="2"/>
+          </g>
+          <g id="Face-29" data-name="Face" data-class="TextButton">
+            <rect x="1140" y="612" width="44" height="44" rx="12" fill="url(#paint-29)"/>
+            <g id="Shine-24" data-name="Shine" data-class="Frame">
+              <rect x="1146" y="615" width="32" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.2"/>
+            </g>
+            <g id="IconHolder-12" data-name="IconHolder" data-class="Frame">
+              <g id="BellIcon-2" data-name="BellIcon" data-class="Frame">
+                <g id="rect1-14" data-name="rect1" data-class="Frame">
+                  <rect x="1160" y="624" width="3" height="3" rx="1" fill="#1b1410"/>
+                </g>
+                <g id="rect2-10" data-name="rect2" data-class="Frame">
+                  <rect x="1156" y="626" width="11" height="13" rx="5" fill="#1b1410"/>
+                </g>
+                <g id="rect3-9" data-name="rect3" data-class="Frame">
+                  <rect x="1154" y="636" width="16" height="3" rx="1" fill="#1b1410"/>
+                </g>
+                <g id="rect4-8" data-name="rect4" data-class="Frame">
+                  <rect x="1160" y="640" width="3" height="3" rx="1" fill="#1b1410"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Caption-81" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="1162" y="681.48">Selected</tspan></text>
+        </g>
+        <g id="BagButton" data-name="BagButton" data-class="Frame">
+          <g id="Ledge-30" data-name="Ledge" data-class="Frame">
+            <rect x="1236" y="612" width="44" height="48" rx="12" fill="#33302b"/>
+            <rect x="1235" y="611" width="46" height="50" rx="13" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-30" data-name="Face" data-class="TextButton">
+            <rect x="1236" y="612" width="44" height="44" rx="12" fill="url(#paint-30)"/>
+            <g id="Shine-25" data-name="Shine" data-class="Frame">
+              <rect x="1242" y="615" width="32" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.2"/>
+            </g>
+            <g id="IconHolder-13" data-name="IconHolder" data-class="Frame">
+              <g id="BagIcon" data-name="BagIcon" data-class="Frame">
+                <g id="ring1-3" data-name="ring1" data-class="Frame">
+                  <rect x="1254.8" y="625.8" width="5.4" height="6.4" rx="2.2" fill="none" stroke="#8c8577" stroke-width="2.4"/>
+                </g>
+                <g id="rect2-11" data-name="rect2" data-class="Frame">
+                  <rect x="1250" y="630" width="16" height="12" rx="3" fill="#8c8577"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Caption-82" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="1258" y="681.48">Disabled</tspan></text>
+        </g>
+        <g id="BellButton-3" data-name="BellButton" data-class="Frame">
+          <g id="Ledge-31" data-name="Ledge" data-class="Frame">
+            <rect x="1332" y="612" width="44" height="48" rx="12" fill="#3a2a1e"/>
+            <rect x="1331" y="611" width="46" height="50" rx="13" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-31" data-name="Face" data-class="TextButton">
+            <rect x="1332" y="612" width="44" height="44" rx="12" fill="url(#paint-31)"/>
+            <g id="Shine-26" data-name="Shine" data-class="Frame">
+              <rect x="1338" y="615" width="32" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.2"/>
+            </g>
+            <g id="IconHolder-14" data-name="IconHolder" data-class="Frame">
+              <g id="BellIcon-3" data-name="BellIcon" data-class="Frame">
+                <g id="rect1-15" data-name="rect1" data-class="Frame">
+                  <rect x="1352" y="624" width="3" height="3" rx="1" fill="#fff4dc"/>
+                </g>
+                <g id="rect2-12" data-name="rect2" data-class="Frame">
+                  <rect x="1348" y="626" width="11" height="13" rx="5" fill="#fff4dc"/>
+                </g>
+                <g id="rect3-10" data-name="rect3" data-class="Frame">
+                  <rect x="1346" y="636" width="16" height="3" rx="1" fill="#fff4dc"/>
+                </g>
+                <g id="rect4-9" data-name="rect4" data-class="Frame">
+                  <rect x="1352" y="640" width="3" height="3" rx="1" fill="#fff4dc"/>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Badge" data-name="Badge" data-class="Frame">
+            <rect x="1362" y="606" width="20" height="20" rx="10" fill="#d94a3a"/>
+            <rect x="1361" y="605" width="22" height="22" rx="11" fill="none" stroke="#fff4dc" stroke-width="2"/>
+            <g id="Count" data-name="Count" data-class="TextLabel">
+              <text font-family="Fredoka One" font-weight="400" font-size="9.92" fill="#fff4dc" text-anchor="middle" xml:space="preserve"><tspan x="1372" y="619.66">3</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g id="Caption-83" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="1354" y="681.48">Badge 3</tspan></text>
+        </g>
+        <g id="PartyButton-2" data-name="PartyButton" data-class="Frame">
+          <g id="Ledge-32" data-name="Ledge" data-class="Frame">
+            <rect x="1428" y="612" width="44" height="48" rx="12" fill="#3a2a1e"/>
+            <rect x="1427" y="611" width="46" height="50" rx="13" fill="none" stroke="#120d0a" stroke-width="2"/>
+          </g>
+          <g id="Face-32" data-name="Face" data-class="TextButton">
+            <rect x="1428" y="612" width="44" height="44" rx="12" fill="url(#paint-32)"/>
+            <g id="Shine-27" data-name="Shine" data-class="Frame">
+              <rect x="1434" y="615" width="32" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.2"/>
+            </g>
+            <g id="IconHolder-15" data-name="IconHolder" data-class="Frame">
+              <g id="PartyIcon-2" data-name="PartyIcon" data-class="Frame">
+                <g id="rect1-16" data-name="rect1" data-class="Frame">
+                  <rect x="1452" y="627" width="5" height="5" rx="2" fill="#fff4dc" fill-opacity="0.5"/>
+                </g>
+                <g id="rect2-13" data-name="rect2" data-class="Frame">
+                  <rect x="1451" y="634" width="8" height="6" rx="3" fill="#fff4dc" fill-opacity="0.5"/>
+                </g>
+                <g id="rect3-11" data-name="rect3" data-class="Frame">
+                  <rect x="1443" y="626" width="7" height="7" rx="3" fill="#fff4dc"/>
+                </g>
+                <g id="rect4-10" data-name="rect4" data-class="Frame">
+                  <rect x="1441" y="634" width="12" height="8" rx="4" fill="#fff4dc"/>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Badge-2" data-name="Badge" data-class="Frame">
+            <rect x="1462" y="610" width="12" height="12" rx="6" fill="#d94a3a"/>
+            <rect x="1461" y="609" width="14" height="14" rx="7" fill="none" stroke="#fff4dc" stroke-width="2"/>
+            <g id="Count-2" data-name="Count" data-class="TextLabel">
+            </g>
+          </g>
+        </g>
+        <g id="Caption-84" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="1450" y="681.48">Badge dot</tspan></text>
+        </g>
+      </g>
+      <g id="Toggle__chips__avatars__spinnerTitle" data-name="Toggle, chips, avatars, spinnerTitle" data-class="TextLabel">
+        <text font-family="Nunito" font-weight="800" font-size="9.89" fill="#ffd98a" text-anchor="start" xml:space="preserve"><tspan x="832" y="720.77">TOGGLE, CHIPS, AVATARS, SPINNER</tspan></text>
+      </g>
+      <g id="Toggle__chips__avatars__spinner" data-name="Toggle, chips, avatars, spinner" data-class="Frame">
+        <g id="Toggle" data-name="Toggle" data-class="TextButton">
+          <rect x="832" y="738" width="50" height="28" rx="14" fill="#1b1410"/>
+          <rect x="831" y="737" width="52" height="30" rx="15" fill="none" stroke="#654a33" stroke-width="2"/>
+          <g id="Knob" data-name="Knob" data-class="Frame">
+            <rect x="836" y="742" width="20" height="20" rx="10" fill="#a8916e"/>
+            <rect x="835.25" y="741.25" width="21.5" height="21.5" rx="10.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          </g>
+        </g>
+        <g id="Toggle-2" data-name="Toggle" data-class="TextButton">
+          <rect x="896" y="738" width="50" height="28" rx="14" fill="#5e9e36"/>
+          <rect x="895" y="737" width="52" height="30" rx="15" fill="none" stroke="#2f5a1d" stroke-width="2"/>
+          <g id="Knob-2" data-name="Knob" data-class="Frame">
+            <rect x="922" y="742" width="20" height="20" rx="10" fill="#fff4dc"/>
+            <rect x="921.25" y="741.25" width="21.5" height="21.5" rx="10.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          </g>
+        </g>
+        <g id="Toggle-3" data-name="Toggle" data-class="TextButton">
+          <rect x="960" y="738" width="50" height="28" rx="14" fill="#33302b"/>
+          <rect x="959" y="737" width="52" height="30" rx="15" fill="none" stroke="#654a33" stroke-width="2"/>
+          <g id="Knob-3" data-name="Knob" data-class="Frame">
+            <rect x="986" y="742" width="20" height="20" rx="10" fill="#6b655a"/>
+            <rect x="985.25" y="741.25" width="21.5" height="21.5" rx="10.75" fill="none" stroke="#120d0a" stroke-width="1.5"/>
+          </g>
+        </g>
+        <g id="Caption-85" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="857" y="783.48">Off</tspan></text>
+        </g>
+        <g id="Caption-86" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="921" y="783.48">On</tspan></text>
+        </g>
+        <g id="Caption-87" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="985" y="783.48">Disabled</tspan></text>
+        </g>
+        <g id="Frame-6" data-name="Frame" data-class="Frame">
+          <g id="Chip-7" data-name="Chip" data-class="Frame">
+            <rect x="1046" y="740" width="73" height="22" rx="11" fill="#ffc04d"/>
+            <g id="CrownIcon" data-name="CrownIcon" data-class="Frame">
+              <g id="rect1-17" data-name="rect1" data-class="Frame">
+                <rect x="1057" y="752.5" width="8" height="1" fill="#1b1410"/>
+              </g>
+              <g id="rect2-14" data-name="rect2" data-class="Frame">
+                <rect x="1057" y="749.5" width="7" height="2" fill="#1b1410"/>
+              </g>
+              <g id="rect3-12" data-name="rect3" data-class="Frame" transform="rotate(45 1058 749.5)">
+                <rect x="1057" y="748.5" width="2" height="2" fill="#1b1410"/>
+              </g>
+              <g id="rect4-11" data-name="rect4" data-class="Frame" transform="rotate(45 1060.5 748)">
+                <rect x="1059" y="746.5" width="3" height="3" fill="#1b1410"/>
+              </g>
+              <g id="rect5-2" data-name="rect5" data-class="Frame" transform="rotate(45 1063 749.5)">
+                <rect x="1062" y="748.5" width="2" height="2" fill="#1b1410"/>
+              </g>
+            </g>
+            <g id="Text-7" data-name="Text" data-class="TextLabel">
+              <text font-family="Nunito" font-weight="800" font-size="9.13" fill="#1b1410" text-anchor="start" xml:space="preserve"><tspan x="1073" y="754.48">LEADER</tspan></text>
+            </g>
+          </g>
+          <g id="Chip-8" data-name="Chip" data-class="Frame">
+            <rect x="1127" y="740" width="68" height="22" rx="11" fill="#5e9e36"/>
+            <g id="CheckIcon-2" data-name="CheckIcon" data-class="Frame">
+              <g id="rect1-18" data-name="rect1" data-class="Frame" transform="rotate(45 1139.5 751)">
+                <rect x="1138" y="750.5" width="3" height="1" fill="#fff4dc"/>
+              </g>
+              <g id="rect2-15" data-name="rect2" data-class="Frame" transform="rotate(-45 1143 750)">
+                <rect x="1140" y="749.5" width="6" height="1" fill="#fff4dc"/>
+              </g>
+            </g>
+            <g id="Text-8" data-name="Text" data-class="TextLabel">
+              <text font-family="Nunito" font-weight="800" font-size="9.13" fill="#fff4dc" text-anchor="start" xml:space="preserve"><tspan x="1154" y="754.48">READY</tspan></text>
+            </g>
+          </g>
+          <g id="Chip-9" data-name="Chip" data-class="Frame">
+            <rect x="1203" y="740" width="73" height="22" rx="11" fill="#1b1410"/>
+            <g id="Text-9" data-name="Text" data-class="TextLabel">
+              <text font-family="Nunito" font-weight="800" font-size="9.13" fill="#d9c29a" text-anchor="start" xml:space="preserve"><tspan x="1212" y="754.48">NOT READY</tspan></text>
+            </g>
+          </g>
+          <g id="Chip-10" data-name="Chip" data-class="Frame">
+            <rect x="1284" y="740" width="84" height="22" rx="11" fill="#1f8c80"/>
+            <g id="SproutIcon" data-name="SproutIcon" data-class="Frame">
+              <g id="rect1-19" data-name="rect1" data-class="Frame" transform="rotate(90 1298.5 753)">
+                <rect x="1296" y="752.5" width="5" height="1" fill="#fff4dc"/>
+              </g>
+              <g id="rect2-16" data-name="rect2" data-class="Frame" transform="rotate(28 1296.5 750)">
+                <rect x="1294" y="748.5" width="5" height="3" rx="1" fill="#fff4dc"/>
+              </g>
+              <g id="rect3-13" data-name="rect3" data-class="Frame" transform="rotate(-32 1301.5 748)">
+                <rect x="1299" y="746.5" width="5" height="3" rx="1" fill="#fff4dc"/>
+              </g>
+            </g>
+            <g id="Text-10" data-name="Text" data-class="TextLabel">
+              <text font-family="Nunito" font-weight="800" font-size="9.13" fill="#fff4dc" text-anchor="start" xml:space="preserve"><tspan x="1311" y="754.48">PEACEFUL</tspan></text>
+            </g>
+          </g>
+          <g id="Chip-11" data-name="Chip" data-class="Frame">
+            <rect x="1376" y="740" width="74" height="22" rx="11" fill="#6645b8"/>
+            <g id="LockIcon-2" data-name="LockIcon" data-class="Frame">
+              <g id="ring1-4" data-name="ring1" data-class="Frame">
+                <rect x="1389.3" y="746.8" width="3.41" height="4.41" rx="1.7" fill="none" stroke="#fff4dc" stroke-width="1.41"/>
+              </g>
+              <g id="rect2-17" data-name="rect2" data-class="Frame">
+                <rect x="1387" y="749.5" width="7" height="5" rx="1" fill="#fff4dc"/>
+              </g>
+              <g id="rect3-14" data-name="rect3" data-class="Frame">
+                <rect x="1390" y="751.5" width="1" height="1" fill="#6645b8"/>
+              </g>
+            </g>
+            <g id="Text-11" data-name="Text" data-class="TextLabel">
+              <text font-family="Nunito" font-weight="800" font-size="9.13" fill="#fff4dc" text-anchor="start" xml:space="preserve"><tspan x="1403" y="754.48">LOCKED</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g id="Frame-7" data-name="Frame" data-class="Frame">
+          <g id="Avatar" data-name="Avatar" data-class="Frame">
+            <rect x="1046" y="782" width="40" height="40" rx="20" fill="#1b1410"/>
+            <rect x="1045" y="781" width="42" height="42" rx="21" fill="none" stroke="#ffc04d" stroke-width="2"/>
+            <g id="UserIcon" data-name="UserIcon" data-class="Frame">
+              <g id="rect1-20" data-name="rect1" data-class="Frame">
+                <rect x="1062" y="794" width="7" height="7" rx="3" fill="#7a6850"/>
+              </g>
+              <g id="rect2-18" data-name="rect2" data-class="Frame">
+                <rect x="1059" y="803" width="14" height="8" rx="4" fill="#7a6850"/>
+              </g>
+            </g>
+            <g id="Portrait" data-name="Portrait" data-class="ImageLabel">
+              <rect x="1046" y="782" width="40" height="40" rx="20" fill="#ffffff" fill-opacity="0.7" data-image="rbxthumb://type=AvatarHeadShot&amp;id=1001&amp;w=150&amp;h=150"/>
+              <path d="M1046 782L1086 822M1086 782L1046 822" stroke="#000000" stroke-opacity="0.25" fill="none"/>
+            </g>
+          </g>
+          <g id="Avatar-2" data-name="Avatar" data-class="Frame">
+            <rect x="1098" y="782" width="40" height="40" rx="20" fill="#1b1410"/>
+            <rect x="1097" y="781" width="42" height="42" rx="21" fill="none" stroke="#654a33" stroke-width="2"/>
+            <g id="UserIcon-2" data-name="UserIcon" data-class="Frame">
+              <g id="rect1-21" data-name="rect1" data-class="Frame">
+                <rect x="1114" y="794" width="7" height="7" rx="3" fill="#7a6850"/>
+              </g>
+              <g id="rect2-19" data-name="rect2" data-class="Frame">
+                <rect x="1111" y="803" width="14" height="8" rx="4" fill="#7a6850"/>
+              </g>
+            </g>
+          </g>
+          <g id="Avatar-3" data-name="Avatar" data-class="Frame">
+            <rect x="1150" y="782" width="40" height="40" rx="20" fill="#1b1410"/>
+            <rect x="1149" y="781" width="42" height="42" rx="21" fill="none" stroke="#5fdcc8" stroke-width="2"/>
+            <g id="UserIcon-3" data-name="UserIcon" data-class="Frame">
+              <g id="rect1-22" data-name="rect1" data-class="Frame">
+                <rect x="1166" y="794" width="7" height="7" rx="3" fill="#7a6850"/>
+              </g>
+              <g id="rect2-20" data-name="rect2" data-class="Frame">
+                <rect x="1163" y="803" width="14" height="8" rx="4" fill="#7a6850"/>
+              </g>
+            </g>
+          </g>
+          <g id="Spinner-5" data-name="Spinner" data-class="Frame">
+            <g id="Dot1-5" data-name="Dot1" data-class="Frame">
+              <rect x="1224.5" y="799.5" width="5" height="5" rx="2.5" fill="#5fdcc8" fill-opacity="0.26"/>
+            </g>
+            <g id="Dot2-5" data-name="Dot2" data-class="Frame">
+              <rect x="1220.5" y="806.5" width="5" height="5" rx="2.5" fill="#5fdcc8" fill-opacity="0.36"/>
+            </g>
+            <g id="Dot3-5" data-name="Dot3" data-class="Frame">
+              <rect x="1213.5" y="810.5" width="5" height="5" rx="2.5" fill="#5fdcc8" fill-opacity="0.47"/>
+            </g>
+            <g id="Dot4-5" data-name="Dot4" data-class="Frame">
+              <rect x="1205.5" y="806.5" width="5" height="5" rx="2.5" fill="#5fdcc8" fill-opacity="0.57"/>
+            </g>
+            <g id="Dot5-5" data-name="Dot5" data-class="Frame">
+              <rect x="1201.5" y="799.5" width="5" height="5" rx="2.5" fill="#5fdcc8" fill-opacity="0.68"/>
+            </g>
+            <g id="Dot6-5" data-name="Dot6" data-class="Frame">
+              <rect x="1205.5" y="791.5" width="5" height="5" rx="2.5" fill="#5fdcc8" fill-opacity="0.79"/>
+            </g>
+            <g id="Dot7-5" data-name="Dot7" data-class="Frame">
+              <rect x="1212.5" y="787.5" width="5" height="5" rx="2.5" fill="#5fdcc8" fill-opacity="0.89"/>
+            </g>
+            <g id="Dot8-5" data-name="Dot8" data-class="Frame">
+              <rect x="1220.5" y="791.5" width="5" height="5" rx="2.5" fill="#5fdcc8"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Icon_set__drawn_from_rounded_shapes__no_image_assets_Title" data-name="Icon set (drawn from rounded shapes, no image assets)Title" data-class="TextLabel">
+        <text font-family="Nunito" font-weight="800" font-size="9.89" fill="#ffd98a" text-anchor="start" xml:space="preserve"><tspan x="32" y="760.77">ICON SET (DRAWN FROM ROUNDED SHAPES, NO IMAGE ASSETS)</tspan></text>
+      </g>
+      <g id="Icon_set__drawn_from_rounded_shapes__no_image_assets_" data-name="Icon set (drawn from rounded shapes, no image assets)" data-class="Frame">
+        <g id="BagTile" data-name="BagTile" data-class="Frame">
+          <rect x="32" y="774" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="BagIcon-2" data-name="BagIcon" data-class="Frame">
+          <g id="ring1-5" data-name="ring1" data-class="Frame">
+            <rect x="50.6" y="785.6" width="5.8" height="6.8" rx="2.4" fill="none" stroke="#fff4dc" stroke-width="2.8"/>
+          </g>
+          <g id="rect2-21" data-name="rect2" data-class="Frame">
+            <rect x="44" y="791" width="18" height="14" rx="3" fill="#fff4dc"/>
+          </g>
+        </g>
+        <g id="Caption-88" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="54" y="831.19">Bag</tspan></text>
+        </g>
+        <g id="BellTile" data-name="BellTile" data-class="Frame">
+          <rect x="95" y="774" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="BellIcon-4" data-name="BellIcon" data-class="Frame">
+          <g id="rect1-23" data-name="rect1" data-class="Frame">
+            <rect x="115" y="784" width="3" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect2-22" data-name="rect2" data-class="Frame">
+            <rect x="110" y="787" width="13" height="15" rx="6" fill="#fff4dc"/>
+          </g>
+          <g id="rect3-15" data-name="rect3" data-class="Frame">
+            <rect x="107" y="799" width="18" height="4" rx="2" fill="#fff4dc"/>
+          </g>
+          <g id="rect4-12" data-name="rect4" data-class="Frame">
+            <rect x="114" y="803" width="4" height="4" rx="2" fill="#fff4dc"/>
+          </g>
+        </g>
+        <g id="Caption-89" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="117" y="831.19">Bell</tspan></text>
+        </g>
+        <g id="ChartTile" data-name="ChartTile" data-class="Frame">
+          <rect x="158" y="774" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="ChartIcon" data-name="ChartIcon" data-class="Frame">
+          <g id="rect1-24" data-name="rect1" data-class="Frame">
+            <rect x="170" y="796" width="5" height="9" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect2-23" data-name="rect2" data-class="Frame">
+            <rect x="177" y="786" width="5" height="19" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect3-16" data-name="rect3" data-class="Frame">
+            <rect x="184" y="792" width="5" height="14" rx="1" fill="#fff4dc"/>
+          </g>
+        </g>
+        <g id="Caption-90" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="180" y="831.19">Chart</tspan></text>
+        </g>
+        <g id="CheckTile" data-name="CheckTile" data-class="Frame">
+          <rect x="221" y="774" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="CheckIcon-3" data-name="CheckIcon" data-class="Frame">
+          <g id="rect1-25" data-name="rect1" data-class="Frame" transform="rotate(45 238 797.5)">
+            <rect x="234" y="796" width="8" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect2-24" data-name="rect2" data-class="Frame" transform="rotate(-45 245 794.5)">
+            <rect x="238" y="793" width="14" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+        </g>
+        <g id="Caption-91" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="243" y="831.19">Check</tspan></text>
+        </g>
+        <g id="ChevronLeftTile" data-name="ChevronLeftTile" data-class="Frame">
+          <rect x="284" y="774" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="ChevronLeftIcon" data-name="ChevronLeftIcon" data-class="Frame">
+          <g id="rect1-26" data-name="rect1" data-class="Frame" transform="rotate(-45 304 791.5)">
+            <rect x="299" y="790" width="10" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect2-25" data-name="rect2" data-class="Frame" transform="rotate(45 304 798.5)">
+            <rect x="299" y="797" width="10" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+        </g>
+        <g id="Caption-92" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="306" y="831.19">ChevronLeft</tspan></text>
+        </g>
+        <g id="ChevronRightTile" data-name="ChevronRightTile" data-class="Frame">
+          <rect x="347" y="774" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="ChevronRightIcon" data-name="ChevronRightIcon" data-class="Frame">
+          <g id="rect1-27" data-name="rect1" data-class="Frame" transform="rotate(45 369 791.5)">
+            <rect x="364" y="790" width="10" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect2-26" data-name="rect2" data-class="Frame" transform="rotate(-45 369 798.5)">
+            <rect x="364" y="797" width="10" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+        </g>
+        <g id="Caption-93" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="369" y="831.19">ChevronRight</tspan></text>
+        </g>
+        <g id="ClockTile" data-name="ClockTile" data-class="Frame">
+          <rect x="410" y="774" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="ClockIcon" data-name="ClockIcon" data-class="Frame">
+          <g id="ring1-6" data-name="ring1" data-class="Frame">
+            <rect x="422.48" y="786.48" width="17.03" height="17.03" rx="8.52" fill="none" stroke="#fff4dc" stroke-width="3.03"/>
+          </g>
+          <g id="rect2-27" data-name="rect2" data-class="Frame" transform="rotate(90 431.5 792)">
+            <rect x="428" y="791" width="7" height="2" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect3-17" data-name="rect3" data-class="Frame">
+            <rect x="431" y="795" width="6" height="2" rx="1" fill="#fff4dc"/>
+          </g>
+        </g>
+        <g id="Caption-94" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="432" y="831.19">Clock</tspan></text>
+        </g>
+        <g id="CloseTile" data-name="CloseTile" data-class="Frame">
+          <rect x="473" y="774" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="CloseIcon" data-name="CloseIcon" data-class="Frame">
+          <g id="rect1-28" data-name="rect1" data-class="Frame" transform="rotate(45 494.5 795.5)">
+            <rect x="486" y="794" width="17" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect2-28" data-name="rect2" data-class="Frame" transform="rotate(-45 494.5 795.5)">
+            <rect x="486" y="794" width="17" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+        </g>
+        <g id="Caption-95" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="495" y="831.19">Close</tspan></text>
+        </g>
+        <g id="CoinTile" data-name="CoinTile" data-class="Frame">
+          <rect x="536" y="774" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="CoinIcon" data-name="CoinIcon" data-class="Frame">
+          <g id="rect1-29" data-name="rect1" data-class="Frame">
+            <rect x="547" y="785" width="21" height="21" rx="10" fill="#ffc04d"/>
+          </g>
+          <g id="ring2" data-name="ring2" data-class="Frame">
+            <rect x="551.95" y="789.95" width="11.1" height="11.1" rx="5.05" fill="none" stroke="#fff4dc" stroke-width="2.1"/>
+          </g>
+        </g>
+        <g id="Caption-96" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="558" y="831.19">Coin</tspan></text>
+        </g>
+        <g id="CrownTile" data-name="CrownTile" data-class="Frame">
+          <rect x="599" y="774" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="CrownIcon-2" data-name="CrownIcon" data-class="Frame">
+          <g id="rect1-30" data-name="rect1" data-class="Frame">
+            <rect x="612" y="801" width="17" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect2-29" data-name="rect2" data-class="Frame">
+            <rect x="613" y="794" width="15" height="6" fill="#fff4dc"/>
+          </g>
+          <g id="rect3-18" data-name="rect3" data-class="Frame" transform="rotate(45 614 793)">
+            <rect x="611" y="790" width="6" height="6" fill="#fff4dc"/>
+          </g>
+          <g id="rect4-13" data-name="rect4" data-class="Frame" transform="rotate(45 620 790)">
+            <rect x="617" y="787" width="6" height="6" fill="#fff4dc"/>
+          </g>
+          <g id="rect5-3" data-name="rect5" data-class="Frame" transform="rotate(45 627 793)">
+            <rect x="624" y="790" width="6" height="6" fill="#fff4dc"/>
+          </g>
+        </g>
+        <g id="Caption-97" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="621" y="831.19">Crown</tspan></text>
+        </g>
+        <g id="DiamondTile" data-name="DiamondTile" data-class="Frame">
+          <rect x="662" y="774" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="DiamondIcon-7" data-name="DiamondIcon" data-class="Frame">
+          <g id="rect1-31" data-name="rect1" data-class="Frame" transform="rotate(45 683.5 795.5)">
+            <rect x="677" y="789" width="13" height="13" rx="2" fill="#fff4dc"/>
+          </g>
+        </g>
+        <g id="Caption-98" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="684" y="831.19">Diamond</tspan></text>
+        </g>
+        <g id="ExitTile" data-name="ExitTile" data-class="Frame">
+          <rect x="725" y="774" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="ExitIcon" data-name="ExitIcon" data-class="Frame">
+          <g id="rect1-32" data-name="rect1" data-class="Frame">
+            <rect x="736" y="786" width="3" height="19" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect2-30" data-name="rect2" data-class="Frame">
+            <rect x="736" y="786" width="10" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect3-19" data-name="rect3" data-class="Frame">
+            <rect x="736" y="802" width="10" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect4-14" data-name="rect4" data-class="Frame">
+            <rect x="744" y="794" width="11" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect5-4" data-name="rect5" data-class="Frame" transform="rotate(45 752.5 792.5)">
+            <rect x="749" y="791" width="7" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect6-2" data-name="rect6" data-class="Frame" transform="rotate(-45 752.5 798.5)">
+            <rect x="749" y="797" width="7" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+        </g>
+        <g id="Caption-99" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="747" y="831.19">Exit</tspan></text>
+        </g>
+        <g id="GearTile" data-name="GearTile" data-class="Frame">
+          <rect x="32" y="844" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="GearIcon-2" data-name="GearIcon" data-class="Frame">
+          <g id="ring1-7" data-name="ring1" data-class="Frame">
+            <rect x="48.13" y="860.13" width="10.73" height="10.73" rx="4.87" fill="none" stroke="#fff4dc" stroke-width="3.73"/>
+          </g>
+          <g id="rect2-31" data-name="rect2" data-class="Frame">
+            <rect x="62" y="863" width="4" height="4" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect3-20" data-name="rect3" data-class="Frame" transform="rotate(45 60 872)">
+            <rect x="58" y="870" width="4" height="4" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect4-15" data-name="rect4" data-class="Frame" transform="rotate(90 53 876)">
+            <rect x="51" y="874" width="4" height="4" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect5-5" data-name="rect5" data-class="Frame" transform="rotate(135 46 872)">
+            <rect x="44" y="870" width="4" height="4" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect6-3" data-name="rect6" data-class="Frame" transform="rotate(180 43 865)">
+            <rect x="41" y="863" width="4" height="4" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect7-2" data-name="rect7" data-class="Frame" transform="rotate(225 46 858)">
+            <rect x="44" y="856" width="4" height="4" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect8-2" data-name="rect8" data-class="Frame" transform="rotate(270 53 855)">
+            <rect x="51" y="853" width="4" height="4" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect9-2" data-name="rect9" data-class="Frame" transform="rotate(315 60 858)">
+            <rect x="58" y="856" width="4" height="4" rx="1" fill="#fff4dc"/>
+          </g>
+        </g>
+        <g id="Caption-100" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="54" y="901.19">Gear</tspan></text>
+        </g>
+        <g id="InfoTile" data-name="InfoTile" data-class="Frame">
+          <rect x="95" y="844" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="InfoIcon" data-name="InfoIcon" data-class="Frame">
+          <g id="rect1-33" data-name="rect1" data-class="Frame">
+            <rect x="105" y="854" width="22" height="22" rx="11" fill="#fff4dc"/>
+          </g>
+          <g id="rect2-32" data-name="rect2" data-class="Frame">
+            <rect x="115" y="859" width="3" height="3" rx="1" fill="#3a2a1e"/>
+          </g>
+          <g id="rect3-21" data-name="rect3" data-class="Frame" transform="rotate(90 116 867.5)">
+            <rect x="112" y="866" width="8" height="3" rx="1" fill="#3a2a1e"/>
+          </g>
+        </g>
+        <g id="Caption-101" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="117" y="901.19">Info</tspan></text>
+        </g>
+        <g id="LockTile" data-name="LockTile" data-class="Frame">
+          <rect x="158" y="844" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="LockIcon-3" data-name="LockIcon" data-class="Frame">
+          <g id="ring1-8" data-name="ring1" data-class="Frame">
+            <rect x="175.48" y="856.48" width="7.03" height="10.03" rx="3.52" fill="none" stroke="#fff4dc" stroke-width="3.03"/>
+          </g>
+          <g id="rect2-33" data-name="rect2" data-class="Frame">
+            <rect x="171" y="863" width="16" height="12" rx="3" fill="#fff4dc"/>
+          </g>
+          <g id="rect3-22" data-name="rect3" data-class="Frame">
+            <rect x="178" y="867" width="3" height="3" rx="1" fill="#3a2a1e"/>
+          </g>
+        </g>
+        <g id="Caption-102" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="180" y="901.19">Lock</tspan></text>
+        </g>
+        <g id="MushroomTile" data-name="MushroomTile" data-class="Frame">
+          <rect x="221" y="844" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="MushroomIcon" data-name="MushroomIcon" data-class="Frame">
+          <g id="rect1-34" data-name="rect1" data-class="Frame">
+            <rect x="239" y="864" width="7" height="11" rx="3" fill="#fff4dc"/>
+          </g>
+          <g id="rect2-34" data-name="rect2" data-class="Frame">
+            <rect x="232" y="855" width="21" height="12" rx="6" fill="#ffc04d"/>
+          </g>
+          <g id="rect3-23" data-name="rect3" data-class="Frame">
+            <rect x="236" y="859" width="3" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect4-16" data-name="rect4" data-class="Frame">
+            <rect x="243" y="858" width="2" height="2" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect5-6" data-name="rect5" data-class="Frame">
+            <rect x="247" y="862" width="2" height="2" rx="1" fill="#fff4dc"/>
+          </g>
+        </g>
+        <g id="Caption-103" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="243" y="901.19">Mushroom</tspan></text>
+        </g>
+        <g id="PartyTile" data-name="PartyTile" data-class="Frame">
+          <rect x="284" y="844" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="PartyIcon-3" data-name="PartyIcon" data-class="Frame">
+          <g id="rect1-35" data-name="rect1" data-class="Frame">
+            <rect x="308" y="858" width="6" height="6" rx="3" fill="#fff4dc" fill-opacity="0.5"/>
+          </g>
+          <g id="rect2-35" data-name="rect2" data-class="Frame">
+            <rect x="307" y="866" width="9" height="7" rx="3" fill="#fff4dc" fill-opacity="0.5"/>
+          </g>
+          <g id="rect3-24" data-name="rect3" data-class="Frame">
+            <rect x="298" y="856" width="8" height="8" rx="4" fill="#fff4dc"/>
+          </g>
+          <g id="rect4-17" data-name="rect4" data-class="Frame">
+            <rect x="295" y="866" width="14" height="9" rx="4" fill="#fff4dc"/>
+          </g>
+        </g>
+        <g id="Caption-104" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="306" y="901.19">Party</tspan></text>
+        </g>
+        <g id="PawTile" data-name="PawTile" data-class="Frame">
+          <rect x="347" y="844" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="PawIcon" data-name="PawIcon" data-class="Frame">
+          <g id="rect1-36" data-name="rect1" data-class="Frame">
+            <rect x="362" y="865" width="12" height="10" rx="5" fill="#fff4dc"/>
+          </g>
+          <g id="rect2-36" data-name="rect2" data-class="Frame">
+            <rect x="358" y="860" width="4" height="4" rx="2" fill="#fff4dc"/>
+          </g>
+          <g id="rect3-25" data-name="rect3" data-class="Frame">
+            <rect x="363" y="856" width="4" height="4" rx="2" fill="#fff4dc"/>
+          </g>
+          <g id="rect4-18" data-name="rect4" data-class="Frame">
+            <rect x="369" y="856" width="4" height="4" rx="2" fill="#fff4dc"/>
+          </g>
+          <g id="rect5-7" data-name="rect5" data-class="Frame">
+            <rect x="374" y="860" width="4" height="4" rx="2" fill="#fff4dc"/>
+          </g>
+        </g>
+        <g id="Caption-105" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="369" y="901.19">Paw</tspan></text>
+        </g>
+        <g id="PlusTile" data-name="PlusTile" data-class="Frame">
+          <rect x="410" y="844" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="PlusIcon" data-name="PlusIcon" data-class="Frame">
+          <g id="rect1-37" data-name="rect1" data-class="Frame">
+            <rect x="423" y="864" width="16" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect2-37" data-name="rect2" data-class="Frame" transform="rotate(90 431 865.5)">
+            <rect x="423" y="864" width="16" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+        </g>
+        <g id="Caption-106" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="432" y="901.19">Plus</tspan></text>
+        </g>
+        <g id="ScrollTile" data-name="ScrollTile" data-class="Frame">
+          <rect x="473" y="844" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="ScrollIcon" data-name="ScrollIcon" data-class="Frame">
+          <g id="rect1-38" data-name="rect1" data-class="Frame">
+            <rect x="486" y="856" width="16" height="18" rx="2" fill="#fff4dc"/>
+          </g>
+          <g id="rect2-38" data-name="rect2" data-class="Frame">
+            <rect x="484" y="855" width="21" height="4" rx="2" fill="#fff4dc"/>
+          </g>
+          <g id="rect3-26" data-name="rect3" data-class="Frame">
+            <rect x="484" y="872" width="21" height="4" rx="2" fill="#fff4dc"/>
+          </g>
+          <g id="rect4-19" data-name="rect4" data-class="Frame">
+            <rect x="490" y="862" width="9" height="2" rx="1" fill="#3a2a1e"/>
+          </g>
+          <g id="rect5-8" data-name="rect5" data-class="Frame">
+            <rect x="490" y="867" width="9" height="2" rx="1" fill="#3a2a1e"/>
+          </g>
+        </g>
+        <g id="Caption-107" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="495" y="901.19">Scroll</tspan></text>
+        </g>
+        <g id="SporeTile" data-name="SporeTile" data-class="Frame">
+          <rect x="536" y="844" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="SporeIcon" data-name="SporeIcon" data-class="Frame">
+          <g id="rect1-39" data-name="rect1" data-class="Frame">
+            <rect x="548" y="864" width="9" height="9" rx="4" fill="#fff4dc"/>
+          </g>
+          <g id="rect2-39" data-name="rect2" data-class="Frame">
+            <rect x="559" y="858" width="7" height="7" rx="3" fill="#fff4dc" fill-opacity="0.5"/>
+          </g>
+          <g id="rect3-27" data-name="rect3" data-class="Frame">
+            <rect x="562" y="869" width="4" height="4" rx="2" fill="#fff4dc" fill-opacity="0.5"/>
+          </g>
+        </g>
+        <g id="Caption-108" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="558" y="901.19">Spore</tspan></text>
+        </g>
+        <g id="SproutTile" data-name="SproutTile" data-class="Frame">
+          <rect x="599" y="844" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="SproutIcon-2" data-name="SproutIcon" data-class="Frame">
+          <g id="rect1-40" data-name="rect1" data-class="Frame" transform="rotate(90 620.5 870.5)">
+            <rect x="615" y="869" width="11" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect2-40" data-name="rect2" data-class="Frame" transform="rotate(28 615.5 863)">
+            <rect x="610" y="860" width="11" height="6" rx="3" fill="#fff4dc"/>
+          </g>
+          <g id="rect3-28" data-name="rect3" data-class="Frame" transform="rotate(-32 625.5 860)">
+            <rect x="620" y="857" width="11" height="6" rx="3" fill="#fff4dc"/>
+          </g>
+        </g>
+        <g id="Caption-109" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="621" y="901.19">Sprout</tspan></text>
+        </g>
+        <g id="UserTile" data-name="UserTile" data-class="Frame">
+          <rect x="662" y="844" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="UserIcon-4" data-name="UserIcon" data-class="Frame">
+          <g id="rect1-41" data-name="rect1" data-class="Frame">
+            <rect x="679" y="856" width="8" height="8" rx="4" fill="#fff4dc"/>
+          </g>
+          <g id="rect2-41" data-name="rect2" data-class="Frame">
+            <rect x="675" y="867" width="16" height="9" rx="4" fill="#fff4dc"/>
+          </g>
+        </g>
+        <g id="Caption-110" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="684" y="901.19">User</tspan></text>
+        </g>
+        <g id="UserPlusTile" data-name="UserPlusTile" data-class="Frame">
+          <rect x="725" y="844" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="UserPlusIcon-5" data-name="UserPlusIcon" data-class="Frame">
+          <g id="rect1-42" data-name="rect1" data-class="Frame">
+            <rect x="739" y="856" width="8" height="8" rx="4" fill="#fff4dc"/>
+          </g>
+          <g id="rect2-42" data-name="rect2" data-class="Frame">
+            <rect x="736" y="867" width="15" height="9" rx="4" fill="#fff4dc"/>
+          </g>
+          <g id="rect3-29" data-name="rect3" data-class="Frame">
+            <rect x="751" y="860" width="8" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+          <g id="rect4-20" data-name="rect4" data-class="Frame" transform="rotate(90 755 861.5)">
+            <rect x="751" y="860" width="8" height="3" rx="1" fill="#fff4dc"/>
+          </g>
+        </g>
+        <g id="Caption-111" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="747" y="901.19">UserPlus</tspan></text>
+        </g>
+        <g id="WarningTile" data-name="WarningTile" data-class="Frame">
+          <rect x="32" y="914" width="44" height="44" rx="10" fill="#3a2a1e"/>
+        </g>
+        <g id="WarningIcon" data-name="WarningIcon" data-class="Frame">
+          <g id="rect1-43" data-name="rect1" data-class="Frame">
+            <rect x="42" y="924" width="22" height="22" rx="11" fill="#fff4dc"/>
+          </g>
+          <g id="rect2-43" data-name="rect2" data-class="Frame" transform="rotate(90 53 932.5)">
+            <rect x="49" y="931" width="8" height="3" rx="1" fill="#3a2a1e"/>
+          </g>
+          <g id="rect3-30" data-name="rect3" data-class="Frame">
+            <rect x="52" y="939" width="3" height="3" rx="1" fill="#3a2a1e"/>
+          </g>
+        </g>
+        <g id="Caption-112" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="8.37" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="54" y="971.19">Warning</tspan></text>
+        </g>
+      </g>
+      <g id="Panel_with_header__error_banner_and_countdownTitle" data-name="Panel with header, error banner and countdownTitle" data-class="TextLabel">
+        <text font-family="Nunito" font-weight="800" font-size="9.89" fill="#ffd98a" text-anchor="start" xml:space="preserve"><tspan x="832" y="856.77">PANEL WITH HEADER, ERROR BANNER AND COUNTDOWN</tspan></text>
+      </g>
+      <g id="Panel_with_header__error_banner_and_countdown" data-name="Panel with header, error banner and countdown" data-class="Frame">
+        <g id="SamplePanel" data-name="SamplePanel" data-class="Frame">
+          <g id="ShadowFar" data-name="ShadowFar" data-class="Frame">
+            <rect x="829" y="886" width="378" height="268" rx="23" fill="#120d0a" fill-opacity="0.14"/>
+          </g>
+          <g id="ShadowNear" data-name="ShadowNear" data-class="Frame">
+            <rect x="834" y="887" width="368" height="260" rx="18" fill="#120d0a" fill-opacity="0.3"/>
+          </g>
+          <g id="Lip" data-name="Lip" data-class="Frame">
+            <rect x="838" y="890" width="360" height="250" rx="14" fill="#1b1410"/>
+            <rect x="836.5" y="888.5" width="363" height="253" rx="15.5" fill="none" stroke="#120d0a" stroke-width="3"/>
+          </g>
+          <g id="Surface" data-name="Surface" data-class="Frame">
+            <rect x="838" y="884" width="360" height="250" rx="14" fill="url(#paint-33)"/>
+            <rect x="836.5" y="882.5" width="363" height="253" rx="15.5" fill="none" stroke="url(#paint-34)" stroke-width="3"/>
+            <g id="InnerLine" data-name="InnerLine" data-class="Frame">
+              <rect x="840.25" y="886.25" width="355.5" height="245.5" rx="11.75" fill="none" stroke="#120d0a" stroke-width="1.5" stroke-opacity="0.55"/>
+            </g>
+            <g id="Header" data-name="Header" data-class="Frame">
+              <rect x="838" y="884" width="360" height="46" rx="14" fill="url(#paint-35)"/>
+              <g id="HeaderBase" data-name="HeaderBase" data-class="Frame">
+                <rect x="838" y="907" width="360" height="23" fill="#4d3827"/>
+              </g>
+              <g id="HeaderEdge" data-name="HeaderEdge" data-class="Frame">
+                <rect x="838" y="930" width="360" height="2" fill="#120d0a" fill-opacity="0.6"/>
+              </g>
+              <g id="MushroomIcon-2" data-name="MushroomIcon" data-class="Frame">
+                <g id="rect1-44" data-name="rect1" data-class="Frame">
+                  <rect x="863" y="905" width="6" height="10" rx="2" fill="#fff4dc"/>
+                </g>
+                <g id="rect2-44" data-name="rect2" data-class="Frame">
+                  <rect x="856" y="897" width="20" height="11" rx="5" fill="#f26b57"/>
+                </g>
+                <g id="rect3-31" data-name="rect3" data-class="Frame">
+                  <rect x="861" y="900" width="3" height="3" rx="1" fill="#fff4dc"/>
+                </g>
+                <g id="rect4-21" data-name="rect4" data-class="Frame">
+                  <rect x="867" y="899" width="2" height="2" rx="1" fill="#fff4dc"/>
+                </g>
+                <g id="rect5-9" data-name="rect5" data-class="Frame">
+                  <rect x="871" y="903" width="2" height="2" rx="1" fill="#fff4dc"/>
+                </g>
+              </g>
+              <g id="Title-2" data-name="Title" data-class="TextLabel">
+                <text font-family="Fredoka One" font-weight="400" font-size="18.18" fill="#ffd98a" text-anchor="start" stroke="#120d0a" stroke-width="3" stroke-opacity="0.65" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="890" y="913.71">PANEL TITLE</tspan></text>
+              </g>
+              <g id="HeaderSlot" data-name="HeaderSlot" data-class="Frame">
+                <g id="Chip-12" data-name="Chip" data-class="Frame">
+                  <rect x="1101" y="896" width="83" height="22" rx="11" fill="#5fdcc8"/>
+                  <g id="Text-12" data-name="Text" data-class="TextLabel">
+                    <text font-family="Nunito" font-weight="800" font-size="9.13" fill="#1b1410" text-anchor="start" xml:space="preserve"><tspan x="1110" y="910.48">DUO STATION</tspan></text>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g id="Body-3" data-name="Body" data-class="Frame">
+              <g id="Label-22" data-name="Label" data-class="TextLabel">
+                <text font-family="Nunito" font-weight="800" font-size="9.89" fill="#d9c29a" text-anchor="start" xml:space="preserve"><tspan x="854" y="960.77">SECTION LABEL</tspan></text>
+              </g>
+              <g id="Body-4" data-name="Body" data-class="TextLabel">
+                <text font-family="Nunito" font-weight="600" font-size="11.41" fill="#fff4dc" text-anchor="start" xml:space="preserve"><tspan x="854" y="983.85">Body text sits on bark with parchment ink. Secondary lines use</tspan><tspan x="854" y="998.85">a softer tone.</tspan></text>
+              </g>
+              <g id="Divider" data-name="Divider" data-class="Frame">
+                <rect x="854" y="1024" width="328" height="2" fill="#120d0a" fill-opacity="0.45"/>
+              </g>
+              <g id="BackButton" data-name="BackButton" data-class="Frame">
+                <g id="Ledge-33" data-name="Ledge" data-class="Frame">
+                  <rect x="854" y="1074" width="100" height="44" rx="10" fill="#3a2a1e"/>
+                  <rect x="853" y="1073" width="102" height="46" rx="11" fill="none" stroke="#120d0a" stroke-width="2"/>
+                </g>
+                <g id="Face-33" data-name="Face" data-class="TextButton">
+                  <rect x="854" y="1074" width="100" height="40" rx="10" fill="url(#paint-36)"/>
+                  <g id="Shine-28" data-name="Shine" data-class="Frame">
+                    <rect x="861" y="1077" width="86" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+                  </g>
+                  <g id="Content-26" data-name="Content" data-class="Frame">
+                    <g id="Label-23" data-name="Label" data-class="TextLabel">
+                      <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#fff4dc" text-anchor="middle" stroke="#3a2a1e" stroke-width="3" stroke-opacity="0.8" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="904" y="1099.18">Back</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+              <g id="CreateButton-11" data-name="CreateButton" data-class="Frame">
+                <g id="Ledge-34" data-name="Ledge" data-class="Frame">
+                  <rect x="1042" y="1074" width="140" height="44" rx="10" fill="#2f5a1d"/>
+                  <rect x="1041" y="1073" width="142" height="46" rx="11" fill="none" stroke="#1f3d14" stroke-width="2"/>
+                </g>
+                <g id="Face-34" data-name="Face" data-class="TextButton">
+                  <rect x="1042" y="1074" width="140" height="40" rx="10" fill="url(#paint-37)"/>
+                  <g id="Shine-29" data-name="Shine" data-class="Frame">
+                    <rect x="1049" y="1077" width="126" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.22"/>
+                  </g>
+                  <g id="Content-27" data-name="Content" data-class="Frame">
+                    <g id="Label-24" data-name="Label" data-class="TextLabel">
+                      <text font-family="Fredoka One" font-weight="400" font-size="14.05" fill="#fff4dc" text-anchor="middle" stroke="#2f5a1d" stroke-width="3" stroke-opacity="0.8" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan x="1112" y="1099.18">Create</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Moss" data-name="Moss" data-class="Frame">
+            <rect x="838.5" y="877.5" width="15" height="15" rx="7.5" fill="#457a28"/>
+            <rect x="837.75" y="876.75" width="16.5" height="16.5" rx="8.25" fill="none" stroke="#1f3d14" stroke-width="1.5"/>
+          </g>
+          <g id="Moss-2" data-name="Moss" data-class="Frame">
+            <rect x="886.5" y="878.5" width="11" height="11" rx="5.5" fill="#457a28"/>
+            <rect x="885.75" y="877.75" width="12.5" height="12.5" rx="6.25" fill="none" stroke="#1f3d14" stroke-width="1.5"/>
+          </g>
+          <g id="Moss-3" data-name="Moss" data-class="Frame">
+            <rect x="1142" y="1130" width="12" height="12" rx="6" fill="#457a28"/>
+            <rect x="1141.25" y="1129.25" width="13.5" height="13.5" rx="6.75" fill="none" stroke="#1f3d14" stroke-width="1.5"/>
+          </g>
+          <g id="Moss-4" data-name="Moss" data-class="Frame">
+            <rect x="1188.5" y="1115.5" width="13" height="13" rx="6.5" fill="#457a28"/>
+            <rect x="1187.75" y="1114.75" width="14.5" height="14.5" rx="7.25" fill="none" stroke="#1f3d14" stroke-width="1.5"/>
+          </g>
+          <g id="Moss-5" data-name="Moss" data-class="Frame">
+            <rect x="849.5" y="870.5" width="21" height="21" rx="10.5" fill="#5e9e36"/>
+            <rect x="848.75" y="869.75" width="22.5" height="22.5" rx="11.25" fill="none" stroke="#1f3d14" stroke-width="1.5"/>
+          </g>
+          <g id="Moss-6" data-name="Moss" data-class="Frame">
+            <rect x="1153" y="1128" width="18" height="18" rx="9" fill="#5e9e36"/>
+            <rect x="1152.25" y="1127.25" width="19.5" height="19.5" rx="9.75" fill="none" stroke="#1f3d14" stroke-width="1.5"/>
+          </g>
+          <g id="Moss-7" data-name="Moss" data-class="Frame">
+            <rect x="870" y="875" width="16" height="16" rx="8" fill="#7fbf4a"/>
+            <rect x="869.25" y="874.25" width="17.5" height="17.5" rx="8.75" fill="none" stroke="#1f3d14" stroke-width="1.5"/>
+          </g>
+          <g id="Moss-8" data-name="Moss" data-class="Frame">
+            <rect x="1169" y="1124" width="22" height="22" rx="11" fill="#7fbf4a"/>
+            <rect x="1168.25" y="1123.25" width="23.5" height="23.5" rx="11.75" fill="none" stroke="#1f3d14" stroke-width="1.5"/>
+          </g>
+        </g>
+        <g id="PlainPanel" data-name="PlainPanel" data-class="Frame">
+          <g id="ShadowFar-2" data-name="ShadowFar" data-class="Frame">
+            <rect x="1219" y="886" width="348" height="268" rx="23" fill="#120d0a" fill-opacity="0.14"/>
+          </g>
+          <g id="ShadowNear-2" data-name="ShadowNear" data-class="Frame">
+            <rect x="1224" y="887" width="338" height="260" rx="18" fill="#120d0a" fill-opacity="0.3"/>
+          </g>
+          <g id="Lip-2" data-name="Lip" data-class="Frame">
+            <rect x="1228" y="890" width="330" height="250" rx="14" fill="#1b1410"/>
+            <rect x="1226.5" y="888.5" width="333" height="253" rx="15.5" fill="none" stroke="#120d0a" stroke-width="3"/>
+          </g>
+          <g id="Surface-2" data-name="Surface" data-class="Frame">
+            <rect x="1228" y="884" width="330" height="250" rx="14" fill="url(#paint-38)"/>
+            <rect x="1226.5" y="882.5" width="333" height="253" rx="15.5" fill="none" stroke="url(#paint-39)" stroke-width="3"/>
+            <g id="InnerLine-2" data-name="InnerLine" data-class="Frame">
+              <rect x="1230.25" y="886.25" width="325.5" height="245.5" rx="11.75" fill="none" stroke="#120d0a" stroke-width="1.5" stroke-opacity="0.55"/>
+            </g>
+            <g id="Body-5" data-name="Body" data-class="Frame">
+              <g id="ErrorBanner" data-name="ErrorBanner" data-class="Frame">
+                <rect x="1244" y="900" width="298" height="40" rx="8" fill="#74221c"/>
+                <rect x="1243.25" y="899.25" width="299.5" height="41.5" rx="8.75" fill="none" stroke="#f26b57" stroke-width="1.5"/>
+                <g id="WarningIcon-2" data-name="WarningIcon" data-class="Frame">
+                  <g id="rect1-45" data-name="rect1" data-class="Frame">
+                    <rect x="1256" y="912" width="15" height="15" rx="7" fill="#ff9c8a"/>
+                  </g>
+                  <g id="rect2-45" data-name="rect2" data-class="Frame" transform="rotate(90 1263 918)">
+                    <rect x="1260" y="917" width="6" height="2" rx="1" fill="#74221c"/>
+                  </g>
+                  <g id="rect3-32" data-name="rect3" data-class="Frame">
+                    <rect x="1262" y="922" width="2" height="2" rx="1" fill="#74221c"/>
+                  </g>
+                </g>
+                <g id="BodyStrong-2" data-name="BodyStrong" data-class="TextLabel">
+                  <text font-family="Nunito" font-weight="700" font-size="10.65" fill="#fff4dc" text-anchor="start" xml:space="preserve"><tspan x="1282" y="924.06">The teleport failed. Try again.</tspan></text>
+                </g>
+              </g>
+              <g id="CountdownRing" data-name="CountdownRing" data-class="Frame">
+                <rect x="1345" y="958" width="96" height="96" rx="48" fill="#1b1410"/>
+                <rect x="1342.5" y="955.5" width="101" height="101" rx="50.5" fill="none" stroke="#5fdcc8" stroke-width="5"/>
+                <g id="Display-3" data-name="Display" data-class="TextLabel">
+                  <text font-family="Fredoka One" font-weight="400" font-size="46.28" fill="#9cf0e0" text-anchor="middle" xml:space="preserve"><tspan x="1393" y="1023.08">4</tspan></text>
+                </g>
+              </g>
+              <g id="Body-6" data-name="Body" data-class="TextLabel">
+                <text font-family="Nunito" font-weight="600" font-size="11.41" fill="#d9c29a" text-anchor="middle" xml:space="preserve"><tspan x="1393" y="1074.85">Starting...</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g id="Moss-9" data-name="Moss" data-class="Frame">
+            <rect x="1228.5" y="877.5" width="15" height="15" rx="7.5" fill="#457a28"/>
+            <rect x="1227.75" y="876.75" width="16.5" height="16.5" rx="8.25" fill="none" stroke="#1f3d14" stroke-width="1.5"/>
+          </g>
+          <g id="Moss-10" data-name="Moss" data-class="Frame">
+            <rect x="1276.5" y="878.5" width="11" height="11" rx="5.5" fill="#457a28"/>
+            <rect x="1275.75" y="877.75" width="12.5" height="12.5" rx="6.25" fill="none" stroke="#1f3d14" stroke-width="1.5"/>
+          </g>
+          <g id="Moss-11" data-name="Moss" data-class="Frame">
+            <rect x="1502" y="1130" width="12" height="12" rx="6" fill="#457a28"/>
+            <rect x="1501.25" y="1129.25" width="13.5" height="13.5" rx="6.75" fill="none" stroke="#1f3d14" stroke-width="1.5"/>
+          </g>
+          <g id="Moss-12" data-name="Moss" data-class="Frame">
+            <rect x="1548.5" y="1115.5" width="13" height="13" rx="6.5" fill="#457a28"/>
+            <rect x="1547.75" y="1114.75" width="14.5" height="14.5" rx="7.25" fill="none" stroke="#1f3d14" stroke-width="1.5"/>
+          </g>
+          <g id="Moss-13" data-name="Moss" data-class="Frame">
+            <rect x="1239.5" y="870.5" width="21" height="21" rx="10.5" fill="#5e9e36"/>
+            <rect x="1238.75" y="869.75" width="22.5" height="22.5" rx="11.25" fill="none" stroke="#1f3d14" stroke-width="1.5"/>
+          </g>
+          <g id="Moss-14" data-name="Moss" data-class="Frame">
+            <rect x="1513" y="1128" width="18" height="18" rx="9" fill="#5e9e36"/>
+            <rect x="1512.25" y="1127.25" width="19.5" height="19.5" rx="9.75" fill="none" stroke="#1f3d14" stroke-width="1.5"/>
+          </g>
+          <g id="Moss-15" data-name="Moss" data-class="Frame">
+            <rect x="1260" y="875" width="16" height="16" rx="8" fill="#7fbf4a"/>
+            <rect x="1259.25" y="874.25" width="17.5" height="17.5" rx="8.75" fill="none" stroke="#1f3d14" stroke-width="1.5"/>
+          </g>
+          <g id="Moss-16" data-name="Moss" data-class="Frame">
+            <rect x="1529" y="1124" width="22" height="22" rx="11" fill="#7fbf4a"/>
+            <rect x="1528.25" y="1123.25" width="23.5" height="23.5" rx="11.75" fill="none" stroke="#1f3d14" stroke-width="1.5"/>
+          </g>
+        </g>
+      </g>
+      <g id="Spacing__radius_and_depthTitle" data-name="Spacing, radius and depthTitle" data-class="TextLabel">
+        <text font-family="Nunito" font-weight="800" font-size="9.89" fill="#ffd98a" text-anchor="start" xml:space="preserve"><tspan x="32" y="936.77">SPACING, RADIUS AND DEPTH</tspan></text>
+      </g>
+      <g id="Spacing__radius_and_depth" data-name="Spacing, radius and depth" data-class="Frame">
+        <g id="Frame-8" data-name="Frame" data-class="Frame">
+          <rect x="32" y="950" width="4" height="28" fill="#2fb8a6"/>
+        </g>
+        <g id="Caption-113" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="34" y="993.48">4</tspan></text>
+        </g>
+        <g id="Frame-9" data-name="Frame" data-class="Frame">
+          <rect x="70" y="950" width="8" height="28" fill="#2fb8a6"/>
+        </g>
+        <g id="Caption-114" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="74" y="993.48">8</tspan></text>
+        </g>
+        <g id="Frame-10" data-name="Frame" data-class="Frame">
+          <rect x="112" y="950" width="12" height="28" fill="#2fb8a6"/>
+        </g>
+        <g id="Caption-115" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="118" y="993.48">12</tspan></text>
+        </g>
+        <g id="Frame-11" data-name="Frame" data-class="Frame">
+          <rect x="158" y="950" width="16" height="28" fill="#2fb8a6"/>
+        </g>
+        <g id="Caption-116" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="166" y="993.48">16</tspan></text>
+        </g>
+        <g id="Frame-12" data-name="Frame" data-class="Frame">
+          <rect x="208" y="950" width="20" height="28" fill="#2fb8a6"/>
+        </g>
+        <g id="Caption-117" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="218" y="993.48">20</tspan></text>
+        </g>
+        <g id="Frame-13" data-name="Frame" data-class="Frame">
+          <rect x="262" y="950" width="24" height="28" fill="#2fb8a6"/>
+        </g>
+        <g id="Caption-118" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="274" y="993.48">24</tspan></text>
+        </g>
+        <g id="Frame-14" data-name="Frame" data-class="Frame">
+          <rect x="320" y="950" width="32" height="28" fill="#2fb8a6"/>
+        </g>
+        <g id="Caption-119" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="336" y="993.48">32</tspan></text>
+        </g>
+        <g id="Frame-15" data-name="Frame" data-class="Frame">
+          <rect x="32" y="1020" width="84" height="52" rx="6" fill="#4d3827"/>
+          <rect x="31" y="1019" width="86" height="54" rx="7" fill="none" stroke="#8a6746" stroke-width="2"/>
+        </g>
+        <g id="Caption-120" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="74" y="1089.48">radius 6</tspan></text>
+        </g>
+        <g id="Frame-16" data-name="Frame" data-class="Frame">
+          <rect x="142" y="1020" width="84" height="52" rx="10" fill="#4d3827"/>
+          <rect x="141" y="1019" width="86" height="54" rx="11" fill="none" stroke="#8a6746" stroke-width="2"/>
+        </g>
+        <g id="Caption-121" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="184" y="1089.48">radius 10</tspan></text>
+        </g>
+        <g id="Frame-17" data-name="Frame" data-class="Frame">
+          <rect x="252" y="1020" width="84" height="52" rx="14" fill="#4d3827"/>
+          <rect x="251" y="1019" width="86" height="54" rx="15" fill="none" stroke="#8a6746" stroke-width="2"/>
+        </g>
+        <g id="Caption-122" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="294" y="1089.48">radius 14</tspan></text>
+        </g>
+        <g id="Frame-18" data-name="Frame" data-class="Frame">
+          <rect x="362" y="1020" width="84" height="52" rx="18" fill="#4d3827"/>
+          <rect x="361" y="1019" width="86" height="54" rx="19" fill="none" stroke="#8a6746" stroke-width="2"/>
+        </g>
+        <g id="Caption-123" data-name="Caption" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="700" font-size="9.13" fill="#a8916e" text-anchor="middle" xml:space="preserve"><tspan x="404" y="1089.48">radius 18</tspan></text>
+        </g>
+        <g id="Body-7" data-name="Body" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="600" font-size="10.65" fill="#d9c29a" text-anchor="start" xml:space="preserve"><tspan x="32" y="1115.06">Depth is a ledge of darker material under the face: button 4, card 3, panel 6.</tspan></text>
+        </g>
+        <g id="Body-8" data-name="Body" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="600" font-size="10.65" fill="#d9c29a" text-anchor="start" xml:space="preserve"><tspan x="32" y="1139.06">Strokes: 2 on controls, 3 on the panel frame. Selected = amber frame + check badge.</tspan></text>
+        </g>
+        <g id="Body-9" data-name="Body" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="600" font-size="10.65" fill="#d9c29a" text-anchor="start" xml:space="preserve"><tspan x="32" y="1163.06">Locked = veil + violet lock badge. Disabled = stone. Error = cap-red banner with the server's sentence.</tspan></text>
+        </g>
+        <g id="Body-10" data-name="Body" data-class="TextLabel">
+          <text font-family="Nunito" font-weight="600" font-size="10.65" fill="#d9c29a" text-anchor="start" xml:space="preserve"><tspan x="32" y="1187.06">Countdown and loading = spore teal. Every state pairs its colour with a word or icon.</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
