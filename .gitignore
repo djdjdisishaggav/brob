@@ -1,0 +1,8 @@
+# build + tool output
+/build/
+/sourcemap.json
+/tools/.cache/
+node_modules/
+*.rbxl.lock
+*.rbxlx.lock
+.DS_Store
